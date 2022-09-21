@@ -49,7 +49,7 @@
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
 
-                    <TextBlock Text="Restart Popup"
+                    <TextBlock Text="再起動ポップアップ"
                            Foreground="{DynamicResource TextColor1}"
                            Grid.Column="0"
                            Grid.ColumnSpan="3"
@@ -101,7 +101,7 @@
                             HorizontalAlignment="Center"
                             VerticalAlignment="Center"
                             Margin="0,40,0,0">
-                    <TextBlock Text="Some of the changes made require your computer to restart in order for them to take affect!"
+                    <TextBlock Text="変更を反映させるためには、コンピュータを再起動する必要があります。"
                            Foreground="{DynamicResource TextColor1}"
                            HorizontalAlignment="Center"
                            VerticalAlignment="Center"
@@ -118,7 +118,7 @@
             <StackPanel Grid.Row="2">
                 <StackPanel Orientation="Horizontal">
 
-                    <Button Content="Restart Now"
+                    <Button Content="再起動する"
                         Foreground="{DynamicResource TextColor1}"
                         FontWeight="Medium"
                         FontSize="16"
@@ -153,7 +153,7 @@
 
                     </Button>
 
-                    <Button Content="Restart Later"
+                    <Button Content="後で"
                         Foreground="{DynamicResource TextColor1}"
                         FontWeight="Medium"
                         FontSize="16"

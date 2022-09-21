@@ -63,7 +63,7 @@
                                                         HorizontalAlignment="Left"
                                                         VerticalAlignment="Top"
                                                         Height="30" Width="386.67">
-                                                <TextBlock Text="Taskbar"
+                                                <TextBlock Text="タスクバー"
                                                            HorizontalAlignment="Left"
                                                            VerticalAlignment="Top"
                                                            Margin="5,4,0,0"
@@ -74,7 +74,7 @@
                                             </StackPanel>
                                         </Border>
 
-                                        <TextBlock Text="Location"
+                                        <TextBlock Text="場所"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Margin="15,7,0,0"
@@ -83,7 +83,7 @@
                                                    FontWeight="Medium"
                                                    FontSize="16"/>
                                         <StackPanel Orientation="Horizontal">
-                                            <RadioButton Content="No Change"
+                                            <RadioButton Content="変更なし"
                                                          Name="Location_NC"
                                                          GroupName="TaskbarLocation"
                                                          IsChecked="True"
@@ -93,14 +93,14 @@
                                                          Foreground="{DynamicResource TextColor1}"
                                                          FontFamily="Fonts/#Sans"
                                                          FontSize="14"/>
-                                            <RadioButton Content="Left"
+                                            <RadioButton Content="左"
                                                          Name="Location_Left"
                                                          GroupName="TaskbarLocation"
                                                          Margin="25,5,0,0"
                                                          Foreground="{DynamicResource TextColor1}"
                                                          FontFamily="Fonts/#Sans"
                                                          FontSize="14"/>
-                                            <RadioButton Content="Center"
+                                            <RadioButton Content="中央"
                                                          Name="Location_Center"
                                                          GroupName="TaskbarLocation"
                                                          Margin="25,5,0,0"
@@ -109,7 +109,7 @@
                                                          FontSize="14"/>
                                         </StackPanel>
 
-                                        <TextBlock Text="Size"
+                                        <TextBlock Text="サイズ"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Margin="15,12,0,0"
@@ -118,7 +118,7 @@
                                                    FontWeight="Medium"
                                                    FontSize="16"/>
                                         <StackPanel Orientation="Horizontal">
-                                            <RadioButton Content="No Change"
+                                            <RadioButton Content="変更なし"
                                                          Name="Size_NC"
                                                          GroupName="TaskbarSize"
                                                          IsChecked="True"
@@ -128,21 +128,21 @@
                                                          Foreground="{DynamicResource TextColor1}"
                                                          FontFamily="Fonts/#Sans"
                                                          FontSize="14"/>
-                                            <RadioButton Content="Small"
+                                            <RadioButton Content="小さい"
                                                          Name="Size_Small"
                                                          GroupName="TaskbarSize"
                                                          Margin="25,5,0,0"
                                                          Foreground="{DynamicResource TextColor1}"
                                                          FontFamily="Fonts/#Sans"
                                                          FontSize="14"/>
-                                            <RadioButton Content="Medium"
+                                            <RadioButton Content="中くらい"
                                                          Name="Size_Medium"
                                                          GroupName="TaskbarSize"
                                                          Margin="25,5,0,0"
                                                          Foreground="{DynamicResource TextColor1}"
                                                          FontFamily="Fonts/#Sans"
                                                          FontSize="14"/>
-                                            <RadioButton Content="Large"
+                                            <RadioButton Content="大きい"
                                                          Name="Size_Large"
                                                          GroupName="TaskbarSize"
                                                          Margin="25,5,0,0"
@@ -151,7 +151,7 @@
                                                          FontSize="14"/>
                                         </StackPanel>
 
-                                        <TextBlock Text="Widgets Button"
+                                        <TextBlock Text="ウィジェットボタン"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Margin="15,12,0,0"
@@ -160,7 +160,7 @@
                                                    FontWeight="Medium"
                                                    FontSize="16"/>
                                         <StackPanel Orientation="Horizontal">
-                                            <RadioButton Content="No Change"
+                                            <RadioButton Content="変更なし"
                                                          Name="Widgets_NC"
                                                          GroupName="Widgets"
                                                          IsChecked="True"
@@ -170,14 +170,14 @@
                                                          Foreground="{DynamicResource TextColor1}"
                                                          FontFamily="Fonts/#Sans"
                                                          FontSize="14"/>
-                                            <RadioButton Content="Disable"
+                                            <RadioButton Content="無効"
                                                          Name="Widgets_Disable"
                                                          GroupName="Widgets"
                                                          Margin="25,5,0,0"
                                                          Foreground="{DynamicResource TextColor1}"
                                                          FontFamily="Fonts/#Sans"
                                                          FontSize="14"/>
-                                            <RadioButton Content="Enable"
+                                            <RadioButton Content="有効"
                                                          Name="Widgets_Enable"
                                                          GroupName="Widgets"
                                                          Margin="25,5,0,0"
@@ -186,7 +186,7 @@
                                                          FontSize="14"/>
                                         </StackPanel>
 
-                                        <TextBlock Text="Chat Button"
+                                        <TextBlock Text="チャットボタン"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Margin="15,12,0,0"
@@ -195,7 +195,7 @@
                                                    FontWeight="Medium"
                                                    FontSize="16"/>
                                         <StackPanel Orientation="Horizontal">
-                                            <RadioButton Content="No Change"
+                                            <RadioButton Content="変更なし"
                                                          Name="Chat_NC"
                                                          GroupName="Chat"
                                                          IsChecked="True"
@@ -205,14 +205,14 @@
                                                          Foreground="{DynamicResource TextColor1}"
                                                          FontFamily="Fonts/#Sans"
                                                          FontSize="14"/>
-                                            <RadioButton Content="Disable"
+                                            <RadioButton Content="無効"
                                                          Name="Chat_Disable"
                                                          GroupName="Chat"
                                                          Margin="25,5,0,0"
                                                          Foreground="{DynamicResource TextColor1}"
                                                          FontFamily="Fonts/#Sans"
                                                          FontSize="14"/>
-                                            <RadioButton Content="Enable"
+                                            <RadioButton Content="有効"
                                                          Name="Chat_Enable"
                                                          GroupName="Chat"
                                                          Margin="25,5,0,0"
@@ -221,7 +221,7 @@
                                                          FontSize="14"/>
                                         </StackPanel>
 
-                                        <TextBlock Text="Keyboard Switcher"
+                                        <TextBlock Text="キーボードスイッチャー"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Margin="15,12,0,0"
@@ -230,7 +230,7 @@
                                                    FontWeight="Medium"
                                                    FontSize="16"/>
                                         <StackPanel Orientation="Horizontal">
-                                            <RadioButton Content="Don't Change"
+                                            <RadioButton Content="変更しない"
                                                          Name="Keyboard_NC"
                                                          GroupName="Keyboard"
                                                          IsChecked="True"
@@ -240,14 +240,14 @@
                                                          Foreground="{DynamicResource TextColor1}"
                                                          FontFamily="Fonts/#Sans"
                                                          FontSize="14"/>
-                                            <RadioButton Content="Hidden"
+                                            <RadioButton Content="非表示"
                                                          Name="Keyboard_Hidden"
                                                          GroupName="Keyboard"
                                                          Margin="25,5,0,0"
                                                          Foreground="{DynamicResource TextColor1}"
                                                          FontFamily="Fonts/#Sans"
                                                          FontSize="14"/>
-                                            <RadioButton Content="Visible"
+                                            <RadioButton Content="表示"
                                                          Name="Keyboard_Visible"
                                                          GroupName="Keyboard"
                                                          Margin="25,5,0,0"
@@ -275,7 +275,7 @@
                                 HorizontalAlignment="Left"
                                 VerticalAlignment="Top"
                                 Height="30" Width="386.67">
-                                                        <TextBlock Text="File and Folder Options"
+                                                        <TextBlock Text="ファイルとフォルダのオプション"
                                     HorizontalAlignment="Left"
                                     VerticalAlignment="Top"
                                     Margin="5,4,0,0"
@@ -285,7 +285,7 @@
                                     FontSize="20"/>
                                                     </StackPanel>
                                                 </Border>
-                                                <TextBlock Text="Hidden Folders"
+                                                <TextBlock Text="隠しフォルダ"
                                         HorizontalAlignment="Left"
                                         VerticalAlignment="Top"
                                         Margin="15,7,0,0"
@@ -294,7 +294,7 @@
                                         FontWeight="Medium"
                                         FontSize="16"/>
                                                 <StackPanel Orientation="Horizontal">
-                                                    <RadioButton Content="No Change"
+                                                    <RadioButton Content="変更なし"
                                                 Name="Hidden_NC"
                                                 GroupName="Hidden"
                                                 IsChecked="True"
@@ -304,14 +304,14 @@
                                                 Foreground="{DynamicResource TextColor1}"
                                                 FontFamily="Fonts/#Sans"
                                                 FontSize="14"/>
-                                                    <RadioButton Content="Visible"
+                                                    <RadioButton Content="表示"
                                                 Name="Hidden_Visible"
                                                 GroupName="Hidden"
                                                 Margin="25,5,0,0"
                                                 Foreground="{DynamicResource TextColor1}"
                                                 FontFamily="Fonts/#Sans"
                                                 FontSize="14"/>
-                                                    <RadioButton Content="Hidden"
+                                                    <RadioButton Content="非表示"
                                                 Name="Hidden_Hidden"
                                                 GroupName="Hidden"
                                                 Margin="25,5,0,0"
@@ -320,7 +320,7 @@
                                                 FontSize="14"/>
                                                 </StackPanel>
 
-                                                <TextBlock Text="Known File Type Extensions"
+                                                <TextBlock Text="既存のファイル拡張子"
                                         HorizontalAlignment="Left"
                                         VerticalAlignment="Top"
                                         Margin="15,12,0,0"
@@ -329,7 +329,7 @@
                                         FontWeight="Medium"
                                         FontSize="16"/>
                                                 <StackPanel Orientation="Horizontal">
-                                                    <RadioButton Content="No Change"
+                                                    <RadioButton Content="変更なし"
                                                 Name="Extension_NC"
                                                 GroupName="Extension"
                                                 IsChecked="True"
@@ -339,14 +339,14 @@
                                                 Foreground="{DynamicResource TextColor1}"
                                                 FontFamily="Fonts/#Sans"
                                                 FontSize="14"/>
-                                                    <RadioButton Content="Visible"
+                                                    <RadioButton Content="表示"
                                                 Name="Extension_Visible"
                                                 GroupName="Extension"
                                                 Margin="25,5,0,0"
                                                 Foreground="{DynamicResource TextColor1}"
                                                 FontFamily="Fonts/#Sans"
                                                 FontSize="14"/>
-                                                    <RadioButton Content="Hidden"
+                                                    <RadioButton Content="非表示"
                                                 Name="Extension_Hidden"
                                                 GroupName="Extension"
                                                 Margin="25,5,0,0"
@@ -355,7 +355,7 @@
                                                 FontSize="14"/>
                                                 </StackPanel>
 
-                                                <TextBlock Text="Shortcut Icons"
+                                                <TextBlock Text="ショートカットアイコン"
                                         HorizontalAlignment="Left"
                                         VerticalAlignment="Top"
                                         Margin="15,12,0,0"
@@ -364,7 +364,7 @@
                                         FontWeight="Medium"
                                         FontSize="16"/>
                                                 <StackPanel Orientation="Horizontal">
-                                                    <RadioButton Content="No Change"
+                                                    <RadioButton Content="変更なし"
                                                 Name="Shortcut_NC"
                                                 GroupName="Shortcut"
                                                 IsChecked="True"
@@ -374,21 +374,21 @@
                                                 Foreground="{DynamicResource TextColor1}"
                                                 FontFamily="Fonts/#Sans"
                                                 FontSize="14"/>
-                                                    <RadioButton Content="None"
+                                                    <RadioButton Content="なし"
                                                 Name="Shortcut_None"
                                                 GroupName="Shortcut"
                                                 Margin="25,5,0,0"
                                                 Foreground="{DynamicResource TextColor1}"
                                                 FontFamily="Fonts/#Sans"
                                                 FontSize="14"/>
-                                                    <RadioButton Content="Normal"
+                                                    <RadioButton Content="通常"
                                                 Name="Shortcut_Normal"
                                                 GroupName="Shortcut"
                                                 Margin="25,5,0,0"
                                                 Foreground="{DynamicResource TextColor1}"
                                                 FontFamily="Fonts/#Sans"
                                                 FontSize="14"/>
-                                                    <RadioButton Content="Large"
+                                                    <RadioButton Content="大きい"
                                                 Name="Shortcut_Large"
                                                 GroupName="Shortcut"
                                                 Margin="25,5,0,0"
@@ -397,7 +397,7 @@
                                                 FontSize="14"/>
                                                 </StackPanel>
 
-                                                <TextBlock Text="Use Checkboxes to Select Items"
+                                                <TextBlock Text="チェックボックスでアイテムを選択する"
                                         HorizontalAlignment="Left"
                                         VerticalAlignment="Top"
                                         Margin="15,12,0,0"
@@ -406,7 +406,7 @@
                                         FontWeight="Medium"
                                         FontSize="16"/>
                                                 <StackPanel Orientation="Horizontal">
-                                                    <RadioButton Content="No Change"
+                                                    <RadioButton Content="変更なし"
                                                 Name="CheckboxesToSelect_NC"
                                                 GroupName="CheckboxesToSelect"
                                                 IsChecked="True"
@@ -416,14 +416,14 @@
                                                 Foreground="{DynamicResource TextColor1}"
                                                 FontFamily="Fonts/#Sans"
                                                 FontSize="14"/>
-                                                    <RadioButton Content="Disable"
+                                                    <RadioButton Content="無効"
                                                 Name="CheckboxesToSelect_Disable"
                                                 GroupName="CheckboxesToSelect"
                                                 Margin="25,5,0,0"
                                                 Foreground="{DynamicResource TextColor1}"
                                                 FontFamily="Fonts/#Sans"
                                                 FontSize="14"/>
-                                                    <RadioButton Content="Enable"
+                                                    <RadioButton Content="有効"
                                                 Name="CheckboxesToSelect_Enable"
                                                 GroupName="CheckboxesToSelect"
                                                 Margin="25,5,0,0"
@@ -459,7 +459,7 @@
                                                         HorizontalAlignment="Left"
                                                         VerticalAlignment="Top"
                                                         Height="30" Width="386.66">
-                                                <TextBlock Text="Right-Click Context Menu"
+                                                <TextBlock Text="右クリックのコンテキストメニュー"
                                                            HorizontalAlignment="Left"
                                                            VerticalAlignment="Top"
                                                            Margin="5,4,0,0"
@@ -470,7 +470,7 @@
                                             </StackPanel>
                                         </Border>
 
-                                        <TextBlock Text="Context Menu Style"
+                                        <TextBlock Text="コンテキストメニュースタイル"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Margin="15,7,0,0"
@@ -479,7 +479,7 @@
                                                    FontWeight="Medium"
                                                    FontSize="16"/>
                                         <StackPanel Orientation="Horizontal">
-                                            <RadioButton Content="No Change"
+                                            <RadioButton Content="変更なし"
                                                          Name="Context_NC"
                                                          GroupName="Context"
                                                          IsChecked="True"
@@ -505,7 +505,7 @@
                                                          FontSize="14"/>
                                         </StackPanel>
 
-                                        <TextBlock Text="Take Ownership"
+                                        <TextBlock Text="所有権を取得する"
                                             HorizontalAlignment="Left"
                                             VerticalAlignment="Top"
                                             Margin="15,12,0,0"
@@ -514,7 +514,7 @@
                                             FontWeight="Medium"
                                             FontSize="16"/>
                                         <StackPanel Orientation="Horizontal">
-                                            <RadioButton Content="No Change"
+                                            <RadioButton Content="変更なし"
                                                     Name="TakeOwn_NC"
                                                     GroupName="TakeOwn"
                                                     IsChecked="True"
@@ -524,14 +524,14 @@
                                                     Foreground="{DynamicResource TextColor1}"
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
-                                            <RadioButton Content="Add"
+                                            <RadioButton Content="追加"
                                                     Name="TakeOwn_Add"
                                                     GroupName="TakeOwn"
                                                     Margin="25,5,0,0"
                                                     Foreground="{DynamicResource TextColor1}"
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
-                                            <RadioButton Content="Remove"
+                                            <RadioButton Content="削除"
                                                     Name="TakeOwn_Remove"
                                                     GroupName="TakeOwn"
                                                     Margin="25,5,0,0"
@@ -540,7 +540,7 @@
                                                     FontSize="14"/>
                                         </StackPanel>
 
-                                        <TextBlock Text="Control Panel Shortcut"
+                                        <TextBlock Text="コントロールパネルのショートカット"
                                             HorizontalAlignment="Left"
                                             VerticalAlignment="Top"
                                             Margin="15,12,0,0"
@@ -549,7 +549,7 @@
                                             FontWeight="Medium"
                                             FontSize="16"/>
                                         <StackPanel Orientation="Horizontal">
-                                            <RadioButton Content="No Change"
+                                            <RadioButton Content="変更なし"
                                                     Name="CPanel_NC"
                                                     GroupName="CPanel"
                                                     IsChecked="True"
@@ -559,14 +559,14 @@
                                                     Foreground="{DynamicResource TextColor1}"
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
-                                            <RadioButton Content="Add"
+                                            <RadioButton Content="追加"
                                                     Name="CPanel_Add"
                                                     GroupName="CPanel"
                                                     Margin="25,5,0,0"
                                                     Foreground="{DynamicResource TextColor1}"
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
-                                            <RadioButton Content="Remove"
+                                            <RadioButton Content="削除"
                                                     Name="CPanel_Remove"
                                                     GroupName="CPanel"
                                                     Margin="25,5,0,0"
@@ -574,7 +574,7 @@
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
                                         </StackPanel>
-                                        <TextBlock Text="Restart Windows Explorer Shortcut"
+                                        <TextBlock Text="エクスプローラーの再起動ショートカット"
                                             HorizontalAlignment="Left"
                                             VerticalAlignment="Top"
                                             Margin="15,12,0,0"
@@ -583,7 +583,7 @@
                                             FontWeight="Medium"
                                             FontSize="16"/>
                                         <StackPanel Orientation="Horizontal">
-                                            <RadioButton Content="No Change"
+                                            <RadioButton Content="変更なし"
                                                     Name="RestartExplorer_NC"
                                                     GroupName="RestartExplorer"
                                                     IsChecked="True"
@@ -593,14 +593,14 @@
                                                     Foreground="{DynamicResource TextColor1}"
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
-                                            <RadioButton Content="Add"
+                                            <RadioButton Content="追加"
                                                     Name="RestartExplorer_Add"
                                                     GroupName="RestartExplorer"
                                                     Margin="25,5,0,0"
                                                     Foreground="{DynamicResource TextColor1}"
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
-                                            <RadioButton Content="Remove"
+                                            <RadioButton Content="削除"
                                                     Name="RestartExplorer_Remove"
                                                     GroupName="RestartExplorer"
                                                     Margin="25,5,0,0"
@@ -609,7 +609,7 @@
                                                     FontSize="14"/>
                                         </StackPanel>
 
-                                        <TextBlock Text="Toggle Camera/Microphone Shortcut"
+                                        <TextBlock Text="カメラとマイクの切り替えショートカット"
                                             HorizontalAlignment="Left"
                                             VerticalAlignment="Top"
                                             Margin="15,12,0,0"
@@ -618,7 +618,7 @@
                                             FontWeight="Medium"
                                             FontSize="16"/>
                                         <StackPanel Orientation="Horizontal">
-                                            <RadioButton Content="No Change"
+                                            <RadioButton Content="変更なし"
                                                     Name="ToggleCM_NC"
                                                     GroupName="ToggleCM"
                                                     IsChecked="True"
@@ -628,14 +628,14 @@
                                                     Foreground="{DynamicResource TextColor1}"
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
-                                            <RadioButton Content="Add"
+                                            <RadioButton Content="追加"
                                                     Name="ToggleCM_Add"
                                                     GroupName="ToggleCM"
                                                     Margin="25,5,0,0"
                                                     Foreground="{DynamicResource TextColor1}"
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
-                                            <RadioButton Content="Remove"
+                                            <RadioButton Content="削除"
                                                     Name="ToggleCM_Remove"
                                                     GroupName="ToggleCM"
                                                     Margin="25,5,0,0"
@@ -645,7 +645,7 @@
                                         </StackPanel>
 
                                         <!--
-                                        <TextBlock Text="Troubleshooters Shortcut"
+                                        <TextBlock Text="トラブルシューティングのショートカット"
                                             HorizontalAlignment="Left"
                                             VerticalAlignment="Top"
                                             Margin="15,12,0,0"
@@ -654,7 +654,7 @@
                                             FontWeight="Medium"
                                             FontSize="16"/>
                                         <StackPanel Orientation="Horizontal">
-                                            <RadioButton Content="No Change"
+                                            <RadioButton Content="変更なし"
                                                     Name="Troubleshooters_NC"
                                                     GroupName="Troubleshooters"
                                                     IsChecked="True"
@@ -664,14 +664,14 @@
                                                     Foreground="{DynamicResource TextColor1}"
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
-                                            <RadioButton Content="Add"
+                                            <RadioButton Content="追加"
                                                     Name="Troubleshooters_Add"
                                                     GroupName="Troubleshooters"
                                                     Margin="25,5,0,0"
                                                     Foreground="{DynamicResource TextColor1}"
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
-                                            <RadioButton Content="Remove"
+                                            <RadioButton Content="削除"
                                                     Name="Troubleshooters_Remove"
                                                     GroupName="Troubleshooters"
                                                     Margin="25,5,0,0"
@@ -679,7 +679,7 @@
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
                                         </StackPanel>
-                                        <TextBlock Text="Power User Options Shortcut"
+                                        <TextBlock Text="パワーユーザーオプションのショートカット"
                                             HorizontalAlignment="Left"
                                             VerticalAlignment="Top"
                                             Margin="15,12,0,0"
@@ -688,7 +688,7 @@
                                             FontWeight="Medium"
                                             FontSize="16"/>
                                         <StackPanel Orientation="Horizontal">
-                                            <RadioButton Content="No Change"
+                                            <RadioButton Content="変更なし"
                                                     Name="PowerUserOptions_NC"
                                                     GroupName="PowerUserOptions"
                                                     IsChecked="True"
@@ -698,14 +698,14 @@
                                                     Foreground="{DynamicResource TextColor1}"
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
-                                            <RadioButton Content="Add"
+                                            <RadioButton Content="追加"
                                                     Name="PowerUserOptions_Add"
                                                     GroupName="PowerUserOptions"
                                                     Margin="25,5,0,0"
                                                     Foreground="{DynamicResource TextColor1}"
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
-                                            <RadioButton Content="Remove"
+                                            <RadioButton Content="削除"
                                                     Name="PowerUserOptions_Remove"
                                                     GroupName="PowerUserOptions"
                                                     Margin="25,5,0,0"
@@ -715,7 +715,7 @@
                                         </StackPanel>
                                         -->
                                         
-                                        <TextBlock Text="Settings Shortcut"
+                                        <TextBlock Text="設定のショートカット"
                                             HorizontalAlignment="Left"
                                             VerticalAlignment="Top"
                                             Margin="15,12,0,0"
@@ -724,7 +724,7 @@
                                             FontWeight="Medium"
                                             FontSize="16"/>
                                         <StackPanel Orientation="Horizontal">
-                                            <RadioButton Content="No Change"
+                                            <RadioButton Content="変更なし"
                                                     Name="SettingsShortcutCM_NC"
                                                     GroupName="SettingsShortcutCM"
                                                     IsChecked="True"
@@ -734,14 +734,14 @@
                                                     Foreground="{DynamicResource TextColor1}"
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
-                                            <RadioButton Content="Add"
+                                            <RadioButton Content="追加"
                                                     Name="SettingsShortcutCM_Add"
                                                     GroupName="SettingsShortcutCM"
                                                     Margin="25,5,0,0"
                                                     Foreground="{DynamicResource TextColor1}"
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
-                                            <RadioButton Content="Remove"
+                                            <RadioButton Content="削除"
                                                     Name="SettingsShortcutCM_Remove"
                                                     GroupName="SettingsShortcutCM"
                                                     Margin="25,5,0,0"
@@ -749,7 +749,7 @@
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
                                         </StackPanel>
-                                        <TextBlock Text="Disk Cleanup Shortcut"
+                                        <TextBlock Text="ディスククリーンアップのショートカット"
                                             HorizontalAlignment="Left"
                                             VerticalAlignment="Top"
                                             Margin="15,12,0,0"
@@ -758,7 +758,7 @@
                                             FontWeight="Medium"
                                             FontSize="16"/>
                                         <StackPanel Orientation="Horizontal">
-                                            <RadioButton Content="No Change"
+                                            <RadioButton Content="変更なし"
                                                     Name="DiskCleanup_NC"
                                                     GroupName="DiskCleanup"
                                                     IsChecked="True"
@@ -768,14 +768,14 @@
                                                     Foreground="{DynamicResource TextColor1}"
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
-                                            <RadioButton Content="Add"
+                                            <RadioButton Content="追加"
                                                     Name="DiskCleanup_Add"
                                                     GroupName="DiskCleanup"
                                                     Margin="25,5,0,0"
                                                     Foreground="{DynamicResource TextColor1}"
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
-                                            <RadioButton Content="Remove"
+                                            <RadioButton Content="削除"
                                                     Name="DiskCleanup_Remove"
                                                     GroupName="DiskCleanup"
                                                     Margin="25,5,0,0"
@@ -783,7 +783,7 @@
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
                                         </StackPanel>
-                                        <TextBlock Text="Batch File as New File Option"
+                                        <TextBlock Text="バッチファイルを新規ファイルオプションに追加"
                                             HorizontalAlignment="Left"
                                             VerticalAlignment="Top"
                                             Margin="15,12,0,0"
@@ -792,7 +792,7 @@
                                             FontWeight="Medium"
                                             FontSize="16"/>
                                         <StackPanel Orientation="Horizontal">
-                                            <RadioButton Content="No Change"
+                                            <RadioButton Content="変更なし"
                                                     Name="NewBatch_NC"
                                                     GroupName="NewBatch"
                                                     IsChecked="True"
@@ -802,14 +802,14 @@
                                                     Foreground="{DynamicResource TextColor1}"
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
-                                            <RadioButton Content="Add"
+                                            <RadioButton Content="追加"
                                                     Name="NewBatch_Add"
                                                     GroupName="NewBatch"
                                                     Margin="25,5,0,0"
                                                     Foreground="{DynamicResource TextColor1}"
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
-                                            <RadioButton Content="Remove"
+                                            <RadioButton Content="削除"
                                                     Name="NewBatch_Remove"
                                                     GroupName="NewBatch"
                                                     Margin="25,5,0,0"
@@ -817,7 +817,7 @@
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
                                         </StackPanel>
-                                    <TextBlock Text="Task Manager Shortcut"
+                                    <TextBlock Text="タスクマネージャーのショートカット"
                                             HorizontalAlignment="Left"
                                             VerticalAlignment="Top"
                                             Margin="15,12,0,0"
@@ -826,7 +826,7 @@
                                             FontWeight="Medium"
                                             FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                     Name="TaskMGR_NC"
                                                     GroupName="TaskMGR"
                                                     IsChecked="True"
@@ -836,14 +836,14 @@
                                                     Foreground="{DynamicResource TextColor1}"
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
-                                        <RadioButton Content="Add"
+                                        <RadioButton Content="追加"
                                                     Name="TaskMGR_Add"
                                                     GroupName="TaskMGR"
                                                     Margin="25,5,0,0"
                                                     Foreground="{DynamicResource TextColor1}"
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
-                                        <RadioButton Content="Remove"
+                                        <RadioButton Content="削除"
                                                     Name="TaskMGR_Remove"
                                                     GroupName="TaskMGR"
                                                     Margin="25,5,0,0"
@@ -877,7 +877,7 @@ Background="{DynamicResource Button}">
         HorizontalAlignment="Left"
         VerticalAlignment="Top"
         Height="30" Width="386.67">
-                                        <TextBlock Text="File Explorer"
+                                        <TextBlock Text="ファイルエクスプローラー"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Margin="5,4,0,0"
@@ -888,7 +888,7 @@ Background="{DynamicResource Button}">
                                     </StackPanel>
                                 </Border>
 
-                                <TextBlock Text="Compact View"
+                                <TextBlock Text="コンパクトビュー"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Margin="15,7,0,0"
@@ -897,7 +897,7 @@ Background="{DynamicResource Button}">
             FontWeight="Medium"
             FontSize="16"/>
                                 <StackPanel Orientation="Horizontal">
-                                    <RadioButton Content="No Change"
+                                    <RadioButton Content="変更なし"
                     Name="Compact_NC"
                     GroupName="Compact"
                     IsChecked="True"
@@ -907,14 +907,14 @@ Background="{DynamicResource Button}">
                     Foreground="{DynamicResource TextColor1}"
                     FontFamily="Fonts/#Sans"
                     FontSize="14"/>
-                                    <RadioButton Content="Enable"
+                                    <RadioButton Content="有効"
                     Name="Compact_Enable"
                     GroupName="Compact"
                     Margin="25,5,0,0"
                     Foreground="{DynamicResource TextColor1}"
                     FontFamily="Fonts/#Sans"
                     FontSize="14"/>
-                                    <RadioButton Content="Disable"
+                                    <RadioButton Content="無効"
                     Name="Compact_Disable"
                     GroupName="Compact"
                     Margin="25,5,0,0"
@@ -923,7 +923,7 @@ Background="{DynamicResource Button}">
                     FontSize="14"/>
                                 </StackPanel>
 
-                                <TextBlock Text="Opening Location"
+                                <TextBlock Text="開く場所"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Margin="15,12,0,0"
@@ -932,7 +932,7 @@ Background="{DynamicResource Button}">
             FontWeight="Medium"
             FontSize="16"/>
                             <StackPanel Orientation="Horizontal">
-                                <RadioButton Content="No Change"
+                                <RadioButton Content="変更なし"
                     Name="OpenLocation_NC"
                     GroupName="OpenLocation"
                     IsChecked="True"
@@ -942,14 +942,14 @@ Background="{DynamicResource Button}">
                     Foreground="{DynamicResource TextColor1}"
                     FontFamily="Fonts/#Sans"
                     FontSize="14"/>
-                                <RadioButton Content="This PC"
+                                <RadioButton Content="このPC"
                     Name="OpenLocation_ThisPC"
                     GroupName="OpenLocation"
                     Margin="25,5,0,0"
                     Foreground="{DynamicResource TextColor1}"
                     FontFamily="Fonts/#Sans"
                     FontSize="14"/>
-                                <RadioButton Content="Quick Access"
+                                <RadioButton Content="クイックアクセス"
                     Name="OpenLocation_QA"
                     GroupName="OpenLocation"
                     Margin="25,5,0,0"
@@ -973,7 +973,7 @@ Background="{DynamicResource Button}">
                                         HorizontalAlignment="Left"
                                         VerticalAlignment="Top"
                                         Height="30" Width="386.67">
-                                        <TextBlock Text="Start Menu"
+                                        <TextBlock Text="スタートメニュー"
                                             HorizontalAlignment="Left"
                                             VerticalAlignment="Top"
                                             Margin="5,4,0,0"
@@ -984,7 +984,7 @@ Background="{DynamicResource Button}">
                                     </StackPanel>
                                 </Border>
 
-                                <TextBlock Text="Start Menu Layout (Windows Insider)"
+                                <TextBlock Text="スタートメニューレイアウト (Windows Insider)"
                                     HorizontalAlignment="Left"
                                     VerticalAlignment="Top"
                                     Margin="15,7,0,0"
@@ -996,10 +996,10 @@ Background="{DynamicResource Button}">
                                     <ComboBox Width="250"
                                         Margin="15,5,0,0"
                                         Foreground="Black">
-                                        <ComboBoxItem IsSelected="True" Name="StartLayout_NC">No Change</ComboBoxItem>
-                                        <ComboBoxItem Name="StartLayout_Pins">More Pins</ComboBoxItem>
-                                        <ComboBoxItem Name="StartLayout_Default">Default</ComboBoxItem>
-                                        <ComboBoxItem Name="StartLayout_Recmmendations">More Recommendations</ComboBoxItem>
+                                        <ComboBoxItem IsSelected="True" Name="StartLayout_NC">変更なし</ComboBoxItem>
+                                        <ComboBoxItem Name="StartLayout_Pins">その他のピン</ComboBoxItem>
+                                        <ComboBoxItem Name="StartLayout_Default">デフォルト</ComboBoxItem>
+                                        <ComboBoxItem Name="StartLayout_Recmmendations">その他のおすすめ</ComboBoxItem>
                                     </ComboBox>
                                 </StackPanel>
                             </StackPanel>
@@ -1019,7 +1019,7 @@ Background="{DynamicResource Button}">
                                             HorizontalAlignment="Left"
                                             VerticalAlignment="Top"
                                             Height="30" Width="386.67">
-                                        <TextBlock Text="Other"
+                                        <TextBlock Text="その他"
                                                 HorizontalAlignment="Left"
                                                 VerticalAlignment="Top"
                                                 Margin="5,4,0,0"
@@ -1029,7 +1029,7 @@ Background="{DynamicResource Button}">
                                                 FontSize="20"/>
                                     </StackPanel>
                                 </Border>
-                                <TextBlock Text="Allow Windows to Search Online"
+                                <TextBlock Text="Windows によるオンライン検索を許可する"
                                         HorizontalAlignment="Left"
                                         VerticalAlignment="Top"
                                         Margin="15,7,0,0"
@@ -1038,7 +1038,7 @@ Background="{DynamicResource Button}">
                                         FontWeight="Medium"
                                         FontSize="16"/>
                                 <StackPanel Orientation="Horizontal">
-                                    <RadioButton Content="No Change"
+                                    <RadioButton Content="変更なし"
                                                 Name="WSearch_NC"
                                                 GroupName="WSearch"
                                                 IsChecked="True"
@@ -1048,14 +1048,14 @@ Background="{DynamicResource Button}">
                                                 Foreground="{DynamicResource TextColor1}"
                                                 FontFamily="Fonts/#Sans"
                                                 FontSize="14"/>
-                                    <RadioButton Content="Prohibit"
+                                    <RadioButton Content="禁止"
                                                 Name="WSearch_Prohibit"
                                                 GroupName="WSearch"
                                                 Margin="25,5,0,0"
                                                 Foreground="{DynamicResource TextColor1}"
                                                 FontFamily="Fonts/#Sans"
                                                 FontSize="14"/>
-                                    <RadioButton Content="Allow"
+                                    <RadioButton Content="許可"
                                                 Name="WSearch_Allow"
                                                 GroupName="WSearch"
                                                 Margin="25,5,0,0"
@@ -1064,7 +1064,7 @@ Background="{DynamicResource Button}">
                                                 FontSize="14"/>
                                 </StackPanel>
 
-                                <TextBlock Text="Widgets Service"
+                                <TextBlock Text="ウィジェット サービス"
                                         HorizontalAlignment="Left"
                                         VerticalAlignment="Top"
                                         Margin="15,12,0,0"
@@ -1073,7 +1073,7 @@ Background="{DynamicResource Button}">
                                         FontWeight="Medium"
                                         FontSize="16"/>
                                 <StackPanel Orientation="Horizontal">
-                                    <RadioButton Content="No Change"
+                                    <RadioButton Content="変更なし"
                                                 Name="WService_NC"
                                                 GroupName="WService"
                                                 IsChecked="True"
@@ -1083,14 +1083,14 @@ Background="{DynamicResource Button}">
                                                 Foreground="{DynamicResource TextColor1}"
                                                 FontFamily="Fonts/#Sans"
                                                 FontSize="14"/>
-                                    <RadioButton Content="Disable"
+                                    <RadioButton Content="無効"
                                                 Name="WService_Disable"
                                                 GroupName="WService"
                                                 Margin="25,5,0,0"
                                                 Foreground="{DynamicResource TextColor1}"
                                                 FontFamily="Fonts/#Sans"
                                                 FontSize="14"/>
-                                    <RadioButton Content="Enable"
+                                    <RadioButton Content="有効"
                                                 Name="WService_Enable"
                                                 GroupName="WService"
                                                 Margin="25,5,0,0"
@@ -1099,7 +1099,7 @@ Background="{DynamicResource Button}">
                                                 FontSize="14"/>
                                 </StackPanel>
                                 
-                                <TextBlock Text="Allow Screen Savers"
+                                <TextBlock Text="スクリーンセーバーを許可"
                                         HorizontalAlignment="Left"
                                         VerticalAlignment="Top"
                                         Margin="15,12,0,0"
@@ -1108,7 +1108,7 @@ Background="{DynamicResource Button}">
                                         FontWeight="Medium"
                                         FontSize="16"/>
                                 <StackPanel Orientation="Horizontal">
-                                    <RadioButton Content="No Change"
+                                    <RadioButton Content="変更なし"
                                                 Name="ScreenSavers_NC"
                                                 GroupName="ScreenSavers"
                                                 IsChecked="True"
@@ -1118,14 +1118,14 @@ Background="{DynamicResource Button}">
                                                 Foreground="{DynamicResource TextColor1}"
                                                 FontFamily="Fonts/#Sans"
                                                 FontSize="14"/>
-                                    <RadioButton Content="Prohibit"
+                                    <RadioButton Content="禁止"
                                                 Name="ScreenSavers_Prohibit"
                                                 GroupName="ScreenSavers"
                                                 Margin="25,5,0,0"
                                                 Foreground="{DynamicResource TextColor1}"
                                                 FontFamily="Fonts/#Sans"
                                                 FontSize="14"/>
-                                    <RadioButton Content="Allow"
+                                    <RadioButton Content="許可"
                                                 Name="ScreenSavers_Allow"
                                                 GroupName="ScreenSavers"
                                                 Margin="25,5,0,0"
@@ -1150,7 +1150,7 @@ Background="{DynamicResource Button}">
         -->
 
         
-        <Button Content="Fix Windows"
+        <Button Content="修正"
         Foreground="{DynamicResource TextColor1}"
         FontWeight="Medium"
         FontSize="16"

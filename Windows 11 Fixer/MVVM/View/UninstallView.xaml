@@ -26,7 +26,7 @@
                                     <StackPanel HorizontalAlignment="Center"
                                                 VerticalAlignment="Top"
                                                 Height="30" Width="381.67">
-                                        <TextBlock Text="Uninstall Windows Software"
+                                        <TextBlock Text="ソフトウェアをアンインストール"
                                                    HorizontalAlignment="Center"
                                                    VerticalAlignment="Top"
                                                    Margin="0,4,0,0"
@@ -57,7 +57,7 @@
                                                                 HorizontalAlignment="Left"
                                                                 VerticalAlignment="Top"
                                                                 Height="30" Width="386.67">
-                                            <TextBlock Text="Hard to Uninstall Software"
+                                            <TextBlock Text="アンインストールしにくいソフト"
                                                                    HorizontalAlignment="Left"
                                                                    VerticalAlignment="Top"
                                                                    Margin="5,4,0,0"
@@ -67,7 +67,7 @@
                                                                    FontSize="20"/>
                                         </StackPanel>
                                     </Border>
-                                        <TextBlock Text="Camera"
+                                        <TextBlock Text="カメラ"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Margin="15,7,0,0"
@@ -76,7 +76,7 @@
                                                    FontWeight="Medium"
                                                    FontSize="16"/>
                                         <StackPanel Orientation="Horizontal">
-                                            <RadioButton Content="No Change"
+                                            <RadioButton Content="変更なし"
                                                          Name="UN_Camera_NC"
                                                          GroupName="UN_Camera"
                                                          IsChecked="True"
@@ -84,7 +84,7 @@
                                                          Foreground="{DynamicResource TextColor1}"
                                                          FontFamily="Fonts/#Sans"
                                                          FontSize="14"/>
-                                            <RadioButton Content="Uninstall"
+                                            <RadioButton Content="アンインストール"
                                                          Name="UN_Camera_Uninstall"
                                                          GroupName="UN_Camera"
                                                          Margin="25,5,0,0"
@@ -92,7 +92,7 @@
                                                          FontFamily="Fonts/#Sans"
                                                          FontSize="14"/>
                                         </StackPanel>
-                                        <TextBlock Text="Alarms and Clock"
+                                        <TextBlock Text="アラームとクロック"
                                            HorizontalAlignment="Left"
                                            VerticalAlignment="Top"
                                            Margin="15,12,0,0"
@@ -101,7 +101,7 @@
                                            FontWeight="Medium"
                                            FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                  Name="UN_Alarms_NC"
                                                  GroupName="UN_Alarms"
                                                  IsChecked="True"
@@ -109,7 +109,7 @@
                                                  Foreground="{DynamicResource TextColor1}"
                                                  FontFamily="Fonts/#Sans"
                                                  FontSize="14"/>
-                                        <RadioButton Content="Uninstall"
+                                        <RadioButton Content="アンインストール"
                                                  Name="UN_Alarms_Uninstall"
                                                  GroupName="UN_Alarms"
                                                  Margin="25,5,0,0"
@@ -126,7 +126,7 @@
                                                    FontWeight="Medium"
                                                    FontSize="16"/>
                                         <StackPanel Orientation="Horizontal">
-                                            <RadioButton Content="No Change"
+                                            <RadioButton Content="変更なし"
                                                          Name="UN_Cortana_NC"
                                                          GroupName="UN_Cortana"
                                                          IsChecked="True"
@@ -134,7 +134,7 @@
                                                          Foreground="{DynamicResource TextColor1}"
                                                          FontFamily="Fonts/#Sans"
                                                          FontSize="14"/>
-                                            <RadioButton Content="Uninstall"
+                                            <RadioButton Content="アンインストール"
                                                          Name="UN_Cortana_Uninstall"
                                                          GroupName="UN_Cortana"
                                                          Margin="25,5,0,0"
@@ -142,7 +142,7 @@
                                                          FontFamily="Fonts/#Sans"
                                                          FontSize="14"/>
                                         </StackPanel>
-                                    <TextBlock Text="Get Help"
+                                    <TextBlock Text="ヘルプを表示"
                                            HorizontalAlignment="Left"
                                            VerticalAlignment="Top"
                                            Margin="15,12,0,0"
@@ -151,7 +151,7 @@
                                            FontWeight="Medium"
                                            FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                  Name="UN_Help_NC"
                                                  GroupName="UN_Help"
                                                  IsChecked="True"
@@ -159,7 +159,7 @@
                                                  Foreground="{DynamicResource TextColor1}"
                                                  FontFamily="Fonts/#Sans"
                                                  FontSize="14"/>
-                                        <RadioButton Content="Uninstall"
+                                        <RadioButton Content="アンインストール"
                                                  Name="UN_Help_Uninstall"
                                                  GroupName="UN_Help"
                                                  Margin="25,5,0,0"
@@ -167,7 +167,7 @@
                                                  FontFamily="Fonts/#Sans"
                                                  FontSize="14"/>
                                     </StackPanel>
-                                        <TextBlock Text="Maps"
+                                        <TextBlock Text="マップ"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Margin="15,12,0,0"
@@ -176,7 +176,7 @@
                                                    FontWeight="Medium"
                                                    FontSize="16"/>
                                         <StackPanel Orientation="Horizontal">
-                                            <RadioButton Content="No Change"
+                                            <RadioButton Content="変更なし"
                                                          Name="UN_Maps_NC"
                                                          GroupName="UN_Maps"
                                                          IsChecked="True"
@@ -184,7 +184,7 @@
                                                          Foreground="{DynamicResource TextColor1}"
                                                          FontFamily="Fonts/#Sans"
                                                          FontSize="14"/>
-                                            <RadioButton Content="Uninstall"
+                                            <RadioButton Content="アンインストール"
                                                          Name="UN_Maps_Uninstall"
                                                          GroupName="UN_Maps"
                                                          Margin="25,5,0,0"
@@ -201,7 +201,7 @@
                                                    FontWeight="Medium"
                                                    FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                          Name="UN_Edge_NC"
                                                          GroupName="UN_Edge"
                                                          IsChecked="True"
@@ -209,7 +209,7 @@
                                                          Foreground="{DynamicResource TextColor1}"
                                                          FontFamily="Fonts/#Sans"
                                                          FontSize="14"/>
-                                        <RadioButton Content="Uninstall"
+                                        <RadioButton Content="アンインストール"
                                                          Name="UN_Edge_Uninstall"
                                                          GroupName="UN_Edge"
                                                          Margin="25,5,0,0"
@@ -217,7 +217,7 @@
                                                          FontFamily="Fonts/#Sans"
                                                          FontSize="14"/>
                                     </StackPanel>
-                                    <TextBlock Text="Photos"
+                                    <TextBlock Text="フォト"
                                            HorizontalAlignment="Left"
                                            VerticalAlignment="Top"
                                            Margin="15,12,0,0"
@@ -226,7 +226,7 @@
                                            FontWeight="Medium"
                                            FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                  Name="UN_Photos_NC"
                                                  GroupName="UN_Photos"
                                                  IsChecked="True"
@@ -234,7 +234,7 @@
                                                  Foreground="{DynamicResource TextColor1}"
                                                  FontFamily="Fonts/#Sans"
                                                  FontSize="14"/>
-                                        <RadioButton Content="Uninstall"
+                                        <RadioButton Content="アンインストール"
                                                  Name="UN_Photos_Uninstall"
                                                  GroupName="UN_Photos"
                                                  Margin="25,5,0,0"
@@ -251,7 +251,7 @@
                                            FontWeight="Medium"
                                            FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                  Name="UN_GameBar_NC"
                                                  GroupName="UN_GameBar"
                                                  IsChecked="True"
@@ -259,7 +259,7 @@
                                                  Foreground="{DynamicResource TextColor1}"
                                                  FontFamily="Fonts/#Sans"
                                                  FontSize="14"/>
-                                        <RadioButton Content="Uninstall"
+                                        <RadioButton Content="アンインストール"
                                                  Name="UN_GameBar_Uninstall"
                                                  GroupName="UN_GameBar"
                                                  Margin="25,5,0,0"
@@ -276,7 +276,7 @@
                                                    FontWeight="Medium"
                                                    FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                          Name="UN_Phone_NC"
                                                          GroupName="UN_Phone"
                                                          IsChecked="True"
@@ -284,7 +284,7 @@
                                                          Foreground="{DynamicResource TextColor1}"
                                                          FontFamily="Fonts/#Sans"
                                                          FontSize="14"/>
-                                        <RadioButton Content="Uninstall"
+                                        <RadioButton Content="アンインストール"
                                                          Name="UN_Phone_Uninstall"
                                                          GroupName="UN_Phone"
                                                          Margin="25,5,0,0"
@@ -315,7 +315,7 @@
                                                     HorizontalAlignment="Left"
                                                     VerticalAlignment="Top"
                                                     Height="30" Width="788.33">
-                                            <TextBlock Text="Easy to Uninstall Software"
+                                            <TextBlock Text="アンインストールしやすいソフトウェア"
                                                        HorizontalAlignment="Left"
                                                        VerticalAlignment="Top"
                                                        Margin="5,4,0,0"
@@ -335,7 +335,7 @@
                 <StackPanel Grid.Column="2" Orientation="Vertical">
                     <StackPanel Orientation="Vertical">
                         <StackPanel Orientation="Vertical">
-                            <TextBlock Text="Calculator"
+                            <TextBlock Text="電卓"
                                            HorizontalAlignment="Left"
                                            VerticalAlignment="Top"
                                            Margin="15,82,0,0"
@@ -344,7 +344,7 @@
                                            FontWeight="Medium"
                                            FontSize="16"/>
                             <StackPanel Orientation="Horizontal">
-                                <RadioButton Content="No Change"
+                                <RadioButton Content="変更なし"
                                                  Name="UN_Calculator_NC"
                                                  GroupName="UN_Calculator"
                                                  IsChecked="True"
@@ -352,7 +352,7 @@
                                                  Foreground="{DynamicResource TextColor1}"
                                                  FontFamily="Fonts/#Sans"
                                                  FontSize="14"/>
-                                <RadioButton Content="Uninstall"
+                                <RadioButton Content="アンインストール"
                                                  Name="UN_Calculator_Uninstall"
                                                  GroupName="UN_Calculator"
                                                  Margin="25,5,0,0"
@@ -369,7 +369,7 @@
                                            FontWeight="Medium"
                                            FontSize="16"/>
                             <StackPanel Orientation="Horizontal">
-                                <RadioButton Content="No Change"
+                                <RadioButton Content="変更なし"
                                                  Name="UN_Feedback_NC"
                                                  GroupName="UN_Feedback"
                                                  IsChecked="True"
@@ -377,7 +377,7 @@
                                                  Foreground="{DynamicResource TextColor1}"
                                                  FontFamily="Fonts/#Sans"
                                                  FontSize="14"/>
-                                <RadioButton Content="Uninstall"
+                                <RadioButton Content="アンインストール"
                                                  Name="UN_Feedback_Uninstall"
                                                  GroupName="UN_Feedback"
                                                  Margin="25,5,0,0"
@@ -385,7 +385,7 @@
                                                  FontFamily="Fonts/#Sans"
                                                  FontSize="14"/>
                             </StackPanel>
-                            <TextBlock Text="Movies and TV"
+                            <TextBlock Text="映画＆テレビ"
                                            HorizontalAlignment="Left"
                                            VerticalAlignment="Top"
                                            Margin="15,12,0,0"
@@ -394,7 +394,7 @@
                                            FontWeight="Medium"
                                            FontSize="16"/>
                             <StackPanel Orientation="Horizontal">
-                                <RadioButton Content="No Change"
+                                <RadioButton Content="変更なし"
                                                  Name="UN_Movies_NC"
                                                  GroupName="UN_Movies"
                                                  IsChecked="True"
@@ -402,7 +402,7 @@
                                                  Foreground="{DynamicResource TextColor1}"
                                                  FontFamily="Fonts/#Sans"
                                                  FontSize="14"/>
-                                <RadioButton Content="Uninstall"
+                                <RadioButton Content="アンインストール"
                                                  Name="UN_Movies_Uninstall"
                                                  GroupName="UN_Movies"
                                                  Margin="25,5,0,0"
@@ -419,7 +419,7 @@
                                            FontWeight="Medium"
                                            FontSize="16"/>
                             <StackPanel Orientation="Horizontal">
-                                <RadioButton Content="No Change"
+                                <RadioButton Content="変更なし"
                                                  Name="UN_Media_NC"
                                                  GroupName="UN_Media"
                                                  IsChecked="True"
@@ -427,7 +427,7 @@
                                                  Foreground="{DynamicResource TextColor1}"
                                                  FontFamily="Fonts/#Sans"
                                                  FontSize="14"/>
-                                <RadioButton Content="Uninstall"
+                                <RadioButton Content="アンインストール"
                                                  Name="UN_Media_Uninstall"
                                                  GroupName="UN_Media"
                                                  Margin="25,5,0,0"
@@ -435,7 +435,7 @@
                                                  FontFamily="Fonts/#Sans"
                                                  FontSize="14"/>
                             </StackPanel>
-                            <TextBlock Text="Mail and Calendar"
+                            <TextBlock Text="メールとカレンダー"
                                            HorizontalAlignment="Left"
                                            VerticalAlignment="Top"
                                            Margin="15,12,0,0"
@@ -444,7 +444,7 @@
                                            FontWeight="Medium"
                                            FontSize="16"/>
                             <StackPanel Orientation="Horizontal">
-                                <RadioButton Content="No Change"
+                                <RadioButton Content="変更なし"
                                                  Name="UN_Mail_NC"
                                                  GroupName="UN_Mail"
                                                  IsChecked="True"
@@ -452,7 +452,7 @@
                                                  Foreground="{DynamicResource TextColor1}"
                                                  FontFamily="Fonts/#Sans"
                                                  FontSize="14"/>
-                                <RadioButton Content="Uninstall"
+                                <RadioButton Content="アンインストール"
                                                  Name="UN_Mail_Uninstall"
                                                  GroupName="UN_Mail"
                                                  Margin="25,5,0,0"
@@ -460,7 +460,7 @@
                                                  FontFamily="Fonts/#Sans"
                                                  FontSize="14"/>
                             </StackPanel>
-                            <TextBlock Text="Microsoft News"
+                            <TextBlock Text="Microsoft ニュース"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Margin="15,12,0,0"
@@ -469,7 +469,7 @@
                                                    FontWeight="Medium"
                                                    FontSize="16"/>
                             <StackPanel Orientation="Horizontal">
-                                <RadioButton Content="No Change"
+                                <RadioButton Content="変更なし"
                                                          Name="UN_News_NC"
                                                          GroupName="UN_News"
                                                          IsChecked="True"
@@ -477,7 +477,7 @@
                                                          Foreground="{DynamicResource TextColor1}"
                                                          FontFamily="Fonts/#Sans"
                                                          FontSize="14"/>
-                                <RadioButton Content="Uninstall"
+                                <RadioButton Content="アンインストール"
                                                          Name="UN_News_Uninstall"
                                                          GroupName="UN_News"
                                                          Margin="25,5,0,0"
@@ -485,7 +485,7 @@
                                                          FontFamily="Fonts/#Sans"
                                                          FontSize="14"/>
                             </StackPanel>
-                            <TextBlock Text="Microsoft Solitaire"
+                            <TextBlock Text="Microsoft ソリティア"
                                                    HorizontalAlignment="Left"
                                                    VerticalAlignment="Top"
                                                    Margin="15,12,0,0"
@@ -494,7 +494,7 @@
                                                    FontWeight="Medium"
                                                    FontSize="16"/>
                             <StackPanel Orientation="Horizontal">
-                                <RadioButton Content="No Change"
+                                <RadioButton Content="変更なし"
                                                          Name="UN_Solitaire_NC"
                                                          GroupName="UN_Solitaire"
                                                          IsChecked="True"
@@ -502,7 +502,7 @@
                                                          Foreground="{DynamicResource TextColor1}"
                                                          FontFamily="Fonts/#Sans"
                                                          FontSize="14"/>
-                                <RadioButton Content="Uninstall"
+                                <RadioButton Content="アンインストール"
                                                          Name="UN_Solitaire_Uninstall"
                                                          GroupName="UN_Solitaire"
                                                          Margin="25,5,0,0"
@@ -519,7 +519,7 @@
                                            FontWeight="Medium"
                                            FontSize="16"/>
                             <StackPanel Orientation="Horizontal">
-                                <RadioButton Content="No Change"
+                                <RadioButton Content="変更なし"
                                                  Name="UN_Teams_NC"
                                                  GroupName="UN_Teams"
                                                  IsChecked="True"
@@ -527,7 +527,7 @@
                                                  Foreground="{DynamicResource TextColor1}"
                                                  FontFamily="Fonts/#Sans"
                                                  FontSize="14"/>
-                                <RadioButton Content="Uninstall"
+                                <RadioButton Content="アンインストール"
                                                  Name="UN_Teams_Uninstall"
                                                  GroupName="UN_Teams"
                                                  Margin="25,5,0,0"
@@ -544,7 +544,7 @@
                                            FontWeight="Medium"
                                            FontSize="16"/>
                             <StackPanel Orientation="Horizontal">
-                                <RadioButton Content="No Change"
+                                <RadioButton Content="変更なし"
                                                  Name="UN_ToDo_NC"
                                                  GroupName="UN_ToDo"
                                                  IsChecked="True"
@@ -552,7 +552,7 @@
                                                  Foreground="{DynamicResource TextColor1}"
                                                  FontFamily="Fonts/#Sans"
                                                  FontSize="14"/>
-                                <RadioButton Content="Uninstall"
+                                <RadioButton Content="アンインストール"
                                                  Name="UN_ToDo_Uninstall"
                                                  GroupName="UN_ToDo"
                                                  Margin="25,5,0,0"
@@ -560,7 +560,7 @@
                                                  FontFamily="Fonts/#Sans"
                                                  FontSize="14"/>
                             </StackPanel>
-                            <TextBlock Text="Notepad"
+                            <TextBlock Text="メモ帳"
                                            HorizontalAlignment="Left"
                                            VerticalAlignment="Top"
                                            Margin="15,12,0,0"
@@ -569,7 +569,7 @@
                                            FontWeight="Medium"
                                            FontSize="16"/>
                             <StackPanel Orientation="Horizontal">
-                                <RadioButton Content="No Change"
+                                <RadioButton Content="変更なし"
                                                  Name="UN_Notepad_NC"
                                                  GroupName="UN_Notepad"
                                                  IsChecked="True"
@@ -577,7 +577,7 @@
                                                  Foreground="{DynamicResource TextColor1}"
                                                  FontFamily="Fonts/#Sans"
                                                  FontSize="14"/>
-                                <RadioButton Content="Uninstall"
+                                <RadioButton Content="アンインストール"
                                                  Name="UN_Notepad_Uninstall"
                                                  GroupName="UN_Notepad"
                                                  Margin="25,5,0,0"
@@ -585,7 +585,7 @@
                                                  FontFamily="Fonts/#Sans"
                                                  FontSize="14"/>
                             </StackPanel>
-                            <TextBlock Text="Paint"
+                            <TextBlock Text="ペイント"
                                            HorizontalAlignment="Left"
                                            VerticalAlignment="Top"
                                            Margin="15,12,0,0"
@@ -594,7 +594,7 @@
                                            FontWeight="Medium"
                                            FontSize="16"/>
                             <StackPanel Orientation="Horizontal">
-                                <RadioButton Content="No Change"
+                                <RadioButton Content="変更なし"
                                                  Name="UN_Paint_NC"
                                                  GroupName="UN_Paint"
                                                  IsChecked="True"
@@ -602,7 +602,7 @@
                                                  Foreground="{DynamicResource TextColor1}"
                                                  FontFamily="Fonts/#Sans"
                                                  FontSize="14"/>
-                                <RadioButton Content="Uninstall"
+                                <RadioButton Content="アンインストール"
                                                  Name="UN_Paint_Uninstall"
                                                  GroupName="UN_Paint"
                                                  Margin="25,5,0,0"
@@ -626,7 +626,7 @@
                                            FontWeight="Medium"
                                            FontSize="16"/>
                             <StackPanel Orientation="Horizontal">
-                                <RadioButton Content="No Change"
+                                <RadioButton Content="変更なし"
                                                  Name="UN_Automate_NC"
                                                  GroupName="UN_Automate"
                                                  IsChecked="True"
@@ -634,7 +634,7 @@
                                                  Foreground="{DynamicResource TextColor1}"
                                                  FontFamily="Fonts/#Sans"
                                                  FontSize="14"/>
-                                <RadioButton Content="Uninstall"
+                                <RadioButton Content="アンインストール"
                                                  Name="UN_Automate_Uninstall"
                                                  GroupName="UN_Automate"
                                                  Margin="25,5,0,0"
@@ -651,7 +651,7 @@
                                            FontWeight="Medium"
                                            FontSize="16"/>
                             <StackPanel Orientation="Horizontal">
-                                <RadioButton Content="No Change"
+                                <RadioButton Content="変更なし"
                                                  Name="UN_Snipping_NC"
                                                  GroupName="UN_Snipping"
                                                  IsChecked="True"
@@ -659,7 +659,7 @@
                                                  Foreground="{DynamicResource TextColor1}"
                                                  FontFamily="Fonts/#Sans"
                                                  FontSize="14"/>
-                                <RadioButton Content="Uninstall"
+                                <RadioButton Content="アンインストール"
                                                  Name="UN_Snipping_Uninstall"
                                                  GroupName="UN_Snipping"
                                                  Margin="25,5,0,0"
@@ -676,7 +676,7 @@
                                            FontWeight="Medium"
                                            FontSize="16"/>
                             <StackPanel Orientation="Horizontal">
-                                <RadioButton Content="No Change"
+                                <RadioButton Content="変更なし"
                                                  Name="UN_Notes_NC"
                                                  GroupName="UN_Notes"
                                                  IsChecked="True"
@@ -684,7 +684,7 @@
                                                  Foreground="{DynamicResource TextColor1}"
                                                  FontFamily="Fonts/#Sans"
                                                  FontSize="14"/>
-                                <RadioButton Content="Uninstall"
+                                <RadioButton Content="アンインストール"
                                                  Name="UN_Notes_Uninstall"
                                                  GroupName="UN_Notes"
                                                  Margin="25,5,0,0"
@@ -692,7 +692,7 @@
                                                  FontFamily="Fonts/#Sans"
                                                  FontSize="14"/>
                             </StackPanel>
-                            <TextBlock Text="Voice Recorder"
+                            <TextBlock Text="ボイスレコーダー"
                                            HorizontalAlignment="Left"
                                            VerticalAlignment="Top"
                                            Margin="15,12,0,0"
@@ -701,7 +701,7 @@
                                            FontWeight="Medium"
                                            FontSize="16"/>
                             <StackPanel Orientation="Horizontal">
-                                <RadioButton Content="No Change"
+                                <RadioButton Content="変更なし"
                                                  Name="UN_Voice_NC"
                                                  GroupName="UN_Voice"
                                                  IsChecked="True"
@@ -709,7 +709,7 @@
                                                  Foreground="{DynamicResource TextColor1}"
                                                  FontFamily="Fonts/#Sans"
                                                  FontSize="14"/>
-                                <RadioButton Content="Uninstall"
+                                <RadioButton Content="アンインストール"
                                                  Name="UN_Voice_Uninstall"
                                                  GroupName="UN_Voice"
                                                  Margin="25,5,0,0"
@@ -717,7 +717,7 @@
                                                  FontFamily="Fonts/#Sans"
                                                  FontSize="14"/>
                             </StackPanel>
-                            <TextBlock Text="Weather"
+                            <TextBlock Text="天気"
                                            HorizontalAlignment="Left"
                                            VerticalAlignment="Top"
                                            Margin="15,12,0,0"
@@ -726,7 +726,7 @@
                                            FontWeight="Medium"
                                            FontSize="16"/>
                             <StackPanel Orientation="Horizontal">
-                                <RadioButton Content="No Change"
+                                <RadioButton Content="変更なし"
                                                  Name="UN_Weather_NC"
                                                  GroupName="UN_Weather"
                                                  IsChecked="True"
@@ -734,7 +734,7 @@
                                                  Foreground="{DynamicResource TextColor1}"
                                                  FontFamily="Fonts/#Sans"
                                                  FontSize="14"/>
-                                <RadioButton Content="Uninstall"
+                                <RadioButton Content="アンインストール"
                                                  Name="UN_Weather_Uninstall"
                                                  GroupName="UN_Weather"
                                                  Margin="25,5,0,0"
@@ -751,7 +751,7 @@
                                            FontWeight="Medium"
                                            FontSize="16"/>
                             <StackPanel Orientation="Horizontal">
-                                <RadioButton Content="No Change"
+                                <RadioButton Content="変更なし"
                                                  Name="UN_Terminal_NC"
                                                  GroupName="UN_Terminal"
                                                  IsChecked="True"
@@ -759,7 +759,7 @@
                                                  Foreground="{DynamicResource TextColor1}"
                                                  FontFamily="Fonts/#Sans"
                                                  FontSize="14"/>
-                                <RadioButton Content="Uninstall"
+                                <RadioButton Content="アンインストール"
                                                  Name="UN_Terminal_Uninstall"
                                                  GroupName="UN_Terminal"
                                                  Margin="25,5,0,0"
@@ -776,7 +776,7 @@
                                            FontWeight="Medium"
                                            FontSize="16"/>
                             <StackPanel Orientation="Horizontal">
-                                <RadioButton Content="No Change"
+                                <RadioButton Content="変更なし"
                                                  Name="UN_Xbox_NC"
                                                  GroupName="UN_Xbox"
                                                  IsChecked="True"
@@ -784,7 +784,7 @@
                                                  Foreground="{DynamicResource TextColor1}"
                                                  FontFamily="Fonts/#Sans"
                                                  FontSize="14"/>
-                                <RadioButton Content="Uninstall"
+                                <RadioButton Content="アンインストール"
                                                  Name="UN_Xbox_Uninstall"
                                                  GroupName="UN_Xbox"
                                                  Margin="25,5,0,0"
@@ -801,7 +801,7 @@
                                            FontWeight="Medium"
                                            FontSize="16"/>
                             <StackPanel Orientation="Horizontal">
-                                <RadioButton Content="No Change"
+                                <RadioButton Content="変更なし"
                                                  Name="UN_Skype_NC"
                                                  GroupName="UN_Skype"
                                                  IsChecked="True"
@@ -809,7 +809,7 @@
                                                  Foreground="{DynamicResource TextColor1}"
                                                  FontFamily="Fonts/#Sans"
                                                  FontSize="14"/>
-                                <RadioButton Content="Uninstall"
+                                <RadioButton Content="アンインストール"
                                                  Name="UN_Skype_Uninstall"
                                                  GroupName="UN_Skype"
                                                  Margin="25,5,0,0"
@@ -826,7 +826,7 @@
                                            FontWeight="Medium"
                                            FontSize="16"/>
                             <StackPanel Orientation="Horizontal">
-                                <RadioButton Content="No Change"
+                                <RadioButton Content="変更なし"
                                                  Name="UN_OneNote_NC"
                                                  GroupName="UN_OneNote"
                                                  IsChecked="True"
@@ -834,7 +834,7 @@
                                                  Foreground="{DynamicResource TextColor1}"
                                                  FontFamily="Fonts/#Sans"
                                                  FontSize="14"/>
-                                <RadioButton Content="Uninstall"
+                                <RadioButton Content="アンインストール"
                                                  Name="UN_OneNote_Uninstall"
                                                  GroupName="UN_OneNote"
                                                  Margin="25,5,0,0"
@@ -851,7 +851,7 @@
                                            FontWeight="Medium"
                                            FontSize="16"/>
                             <StackPanel Orientation="Horizontal">
-                                <RadioButton Content="No Change"
+                                <RadioButton Content="変更なし"
                                                  Name="UN_MixedReality_NC"
                                                  GroupName="UN_MixedReality"
                                                  IsChecked="True"
@@ -859,7 +859,7 @@
                                                  Foreground="{DynamicResource TextColor1}"
                                                  FontFamily="Fonts/#Sans"
                                                  FontSize="14"/>
-                                <RadioButton Content="Uninstall"
+                                <RadioButton Content="アンインストール"
                                                  Name="UN_MixedReality_Uninstall"
                                                  GroupName="UN_MixedReality"
                                                  Margin="25,5,0,0"
@@ -870,7 +870,7 @@
                             <TextBlock Margin="15,12,0,0">
                                         <Hyperlink NavigateUri="ms-settings:installed-apps"
                                                     RequestNavigate="Hyperlink_RequestNavigate">
-                                            Settings Page to Uninstall Apps
+                                            アプリをアンインストールする設定ページ
                                         </Hyperlink>
                             </TextBlock>
                         </StackPanel>
@@ -879,7 +879,7 @@
             </Grid>
         </StackPanel>
         
-        <Button Content="Uninstall Software"
+        <Button Content="アンインストール"
             Foreground="{DynamicResource TextColor1}"
             FontWeight="Medium"
             FontSize="16"

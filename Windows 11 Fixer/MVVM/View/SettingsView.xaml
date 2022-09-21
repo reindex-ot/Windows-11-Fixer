@@ -31,7 +31,7 @@
                                     <StackPanel HorizontalAlignment="Left"
                                                 VerticalAlignment="Top"
                                                 Height="30" Width="381.67">
-                                        <TextBlock Text="System Settings"
+                                        <TextBlock Text="システム設定"
                                                    HorizontalAlignment="Center"
                                                    VerticalAlignment="Top"
                                                    Margin="5,4,0,0"
@@ -58,7 +58,7 @@
                                                     HorizontalAlignment="Left"
                                                     VerticalAlignment="Top"
                                                     Height="30" Width="381.67">
-                                            <TextBlock Text="Notifications"
+                                            <TextBlock Text="通知"
                                                        HorizontalAlignment="Left"
                                                        VerticalAlignment="Top"
                                                        Margin="5,4,0,0"
@@ -68,7 +68,7 @@
                                                        FontSize="20"/>
                                         </StackPanel>
                                     </Border>
-                                    <TextBlock Text="Notifications"
+                                    <TextBlock Text="通知"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,7,0,0"
@@ -77,7 +77,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                      Name="Notifications_NC"
                                                      GroupName="Notifications"
                                                      IsChecked="True"
@@ -85,14 +85,14 @@
                                                      Foreground="{DynamicResource TextColor1}"
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"/>
-                                        <RadioButton Content="Disable"
+                                        <RadioButton Content="無効"
                                                      Name="Notifications_Disable"
                                                      GroupName="Notifications"
                                                      Margin="25,5,0,0"
                                                      Foreground="{DynamicResource TextColor1}"
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"/>
-                                        <RadioButton Content="Enable"
+                                        <RadioButton Content="有効"
                                                      Name="Notifications_Enable"
                                                      GroupName="Notifications"
                                                      Margin="25,5,0,0"
@@ -100,7 +100,7 @@
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"/>
                                     </StackPanel>
-                                    <TextBlock Text="Offer Suggestions on Device Setup"
+                                    <TextBlock Text="デバイスのセットアップに関する提案をする"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,12,0,0"
@@ -109,7 +109,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                      Name="Suggestions_NC"
                                                      GroupName="Suggestions"
                                                      IsChecked="True"
@@ -117,14 +117,14 @@
                                                      Foreground="{DynamicResource TextColor1}"
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"/>
-                                        <RadioButton Content="Disable"
+                                        <RadioButton Content="無効"
                                                      Name="Suggestions_Disable"
                                                      GroupName="Suggestions"
                                                      Margin="25,5,0,0"
                                                      Foreground="{DynamicResource TextColor1}"
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"/>
-                                        <RadioButton Content="Enable"
+                                        <RadioButton Content="有効"
                                                      Name="Suggestions_Enable"
                                                      GroupName="Suggestions"
                                                      Margin="25,5,0,0"
@@ -132,7 +132,7 @@
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"/>
                                     </StackPanel>
-                                    <TextBlock Text="Get Windows Tips and Suggestions"
+                                    <TextBlock Text="Windowsのヒントと提案を入手する"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,12,0,0"
@@ -141,7 +141,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                      Name="Tips_NC"
                                                      GroupName="Tips"
                                                      IsChecked="True"
@@ -149,14 +149,14 @@
                                                      Foreground="{DynamicResource TextColor1}"
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"/>
-                                        <RadioButton Content="Disable"
+                                        <RadioButton Content="無効"
                                                      Name="Tips_Disable"
                                                      GroupName="Tips"
                                                      Margin="25,5,0,0"
                                                      Foreground="{DynamicResource TextColor1}"
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"/>
-                                        <RadioButton Content="Enable"
+                                        <RadioButton Content="有効"
                                                      Name="Tips_Enable"
                                                      GroupName="Tips"
                                                      Margin="25,5,0,0"
@@ -183,7 +183,7 @@
                                                     HorizontalAlignment="Left"
                                                     VerticalAlignment="Top"
                                                     Height="30" Width="381.67">
-                                            <TextBlock Text="Storage"
+                                            <TextBlock Text="ストレージ"
                                                        HorizontalAlignment="Left"
                                                        VerticalAlignment="Top"
                                                        Margin="5,4,0,0"
@@ -202,7 +202,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                      Name="StorageSense_NC"
                                                      GroupName="StorageSense"
                                                      IsChecked="True"
@@ -210,14 +210,14 @@
                                                      Foreground="{DynamicResource TextColor1}"
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"/>
-                                        <RadioButton Content="Disable"
+                                        <RadioButton Content="無効"
                                                      Name="StorageSense_Disable"
                                                      GroupName="StorageSense"
                                                      Margin="25,5,0,0"
                                                      Foreground="{DynamicResource TextColor1}"
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"/>
-                                        <RadioButton Content="Enable"
+                                        <RadioButton Content="有効"
                                                      Name="StorageSense_Enable"
                                                      GroupName="StorageSense"
                                                      Margin="25,5,0,0"
@@ -242,7 +242,7 @@
                                                     HorizontalAlignment="Left"
                                                     VerticalAlignment="Top"
                                                     Height="30" Width="381.67">
-                                            <TextBlock Text="Clipboard"
+                                            <TextBlock Text="クリップボード"
                                                        HorizontalAlignment="Left"
                                                        VerticalAlignment="Top"
                                                        Margin="5,4,0,0"
@@ -252,7 +252,7 @@
                                                        FontSize="20"/>
                                         </StackPanel>
                                     </Border>
-                                    <TextBlock Text="Clipboard History"
+                                    <TextBlock Text="クリップボードの履歴"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,7,0,0"
@@ -261,7 +261,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                      Name="Clipboard_NC"
                                                      GroupName="Clipboard"
                                                      IsChecked="True"
@@ -269,14 +269,14 @@
                                                      Foreground="{DynamicResource TextColor1}"
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"/>
-                                        <RadioButton Content="Enable"
+                                        <RadioButton Content="有効"
                                                      Name="Clipboard_Enable"
                                                      GroupName="Clipboard"
                                                      Margin="25,5,0,0"
                                                      Foreground="{DynamicResource TextColor1}"
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"/>
-                                        <RadioButton Content="Disable"
+                                        <RadioButton Content="無効"
                                                      Name="Clipboard_Disable"
                                                      GroupName="Clipboard"
                                                      Margin="25,5,0,0"
@@ -296,7 +296,7 @@
                                     <StackPanel HorizontalAlignment="Left"
                                                 VerticalAlignment="Top"
                                                 Height="30" Width="381.67">
-                                        <TextBlock Text="Personalization Settings"
+                                        <TextBlock Text="パーソナライズ設定"
                                                    HorizontalAlignment="Center"
                                                    VerticalAlignment="Top"
                                                    Margin="5,4,0,0"
@@ -323,7 +323,7 @@
                                                     HorizontalAlignment="Left"
                                                     VerticalAlignment="Top"
                                                     Height="30" Width="381.67">
-                                            <TextBlock Text="Colors"
+                                            <TextBlock Text="色"
                                                        HorizontalAlignment="Left"
                                                        VerticalAlignment="Top"
                                                        Margin="5,4,0,0"
@@ -333,7 +333,7 @@
                                                        FontSize="20"/>
                                         </StackPanel>
                                     </Border>
-                                    <TextBlock Text="Windows Theme"
+                                    <TextBlock Text="Windowsテーマ"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,7,0,0"
@@ -342,7 +342,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                      Name="WinTheme_NC"
                                                      GroupName="WinTheme"
                                                      IsChecked="True"
@@ -365,7 +365,7 @@
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"/>
                                     </StackPanel>
-                                    <TextBlock Text="Application Theme"
+                                    <TextBlock Text="アプリケーションのテーマ"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,12,0,0"
@@ -374,7 +374,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                      Name="AppTheme_NC"
                                                      GroupName="AppTheme"
                                                      IsChecked="True"
@@ -397,7 +397,7 @@
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"/>
                                     </StackPanel>
-                                    <TextBlock Text="Transparency Effects"
+                                    <TextBlock Text="透明度効果"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,12,0,0"
@@ -406,7 +406,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                      Name="Transparency_NC"
                                                      GroupName="Transparency"
                                                      IsChecked="True"
@@ -414,14 +414,14 @@
                                                      Foreground="{DynamicResource TextColor1}"
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"/>
-                                        <RadioButton Content="Disable"
+                                        <RadioButton Content="無効"
                                                      Name="Transparency_Disable"
                                                      GroupName="Transparency"
                                                      Margin="25,5,0,0"
                                                      Foreground="{DynamicResource TextColor1}"
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"/>
-                                        <RadioButton Content="Enable"
+                                        <RadioButton Content="有効"
                                                      Name="Transparency_Enable"
                                                      GroupName="Transparency"
                                                      Margin="25,5,0,0"
@@ -444,7 +444,7 @@
                                                     HorizontalAlignment="Left"
                                                     VerticalAlignment="Top"
                                                     Height="30" Width="381.67">
-                                            <TextBlock Text="Start"
+                                            <TextBlock Text="スタート"
                                                        HorizontalAlignment="Left"
                                                        VerticalAlignment="Top"
                                                        Margin="5,4,0,0"
@@ -455,7 +455,7 @@
                                         </StackPanel>
                                     </Border>
                                     
-                                    <TextBlock Text="Show Recently Opened Items"
+                                    <TextBlock Text="最近開いた項目を表示する"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,7,0,0"
@@ -464,7 +464,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                      Name="RecentlyOpened_NC"
                                                      GroupName="RecentlyOpened"
                                                      IsChecked="True"
@@ -472,14 +472,14 @@
                                                      Foreground="{DynamicResource TextColor1}"
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"/>
-                                        <RadioButton Content="Disable"
+                                        <RadioButton Content="無効"
                                                      Name="RecentlyOpened_Disable"
                                                      GroupName="RecentlyOpened"
                                                      Margin="25,5,0,0"
                                                      Foreground="{DynamicResource TextColor1}"
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"/>
-                                        <RadioButton Content="Enable"
+                                        <RadioButton Content="有効"
                                                      Name="RecentlyOpened_Enable"
                                                      GroupName="RecentlyOpened"
                                                      Margin="25,5,0,0"
@@ -499,7 +499,7 @@
                                     <StackPanel HorizontalAlignment="Left"
                                                 VerticalAlignment="Top"
                                                 Height="30" Width="381.67">
-                                        <TextBlock Text="Other Settings"
+                                        <TextBlock Text="その他の設定"
                                                    HorizontalAlignment="Center"
                                                    VerticalAlignment="Top"
                                                    Margin="5,4,0,0"
@@ -526,7 +526,7 @@
                                                     HorizontalAlignment="Left"
                                                     VerticalAlignment="Top"
                                                     Height="30" Width="381.67">
-                                            <TextBlock Text="Gaming"
+                                            <TextBlock Text="ゲーミング"
                                                        HorizontalAlignment="Left"
                                                        VerticalAlignment="Top"
                                                        Margin="5,4,0,0"
@@ -536,7 +536,7 @@
                                                        FontSize="20"/>
                                         </StackPanel>
                                     </Border>
-                                    <TextBlock Text="Game Mode"
+                                    <TextBlock Text="ゲームモード"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,7,0,0"
@@ -545,7 +545,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                      Name="GameMode_NC"
                                                      GroupName="GameMode"
                                                      IsChecked="True"
@@ -553,14 +553,14 @@
                                                      Foreground="{DynamicResource TextColor1}"
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"/>
-                                        <RadioButton Content="Disable"
+                                        <RadioButton Content="無効"
                                                      Name="GameMode_Disable"
                                                      GroupName="GameMode"
                                                      Margin="25,5,0,0"
                                                      Foreground="{DynamicResource TextColor1}"
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"/>
-                                        <RadioButton Content="Enable"
+                                        <RadioButton Content="有効"
                                                      Name="GameMode_Enable"
                                                      GroupName="GameMode"
                                                      Margin="25,5,0,0"
@@ -585,7 +585,7 @@
                                     HorizontalAlignment="Left"
                                     VerticalAlignment="Top"
                                     Height="30" Width="778.33">
-                                        <TextBlock Text="Privacy and Security Settings"
+                                        <TextBlock Text="プライバシーとセキュリティの設定"
                                         HorizontalAlignment="Center"
                                         VerticalAlignment="Top"
                                         Margin="5,4,0,0"
@@ -607,7 +607,7 @@
                                 <StackPanel>
                                     <StackPanel Orientation="Vertical">
                                         <StackPanel Orientation="Horizontal">
-                                            <TextBlock Text="Select Recommended Privacy and Security Settings"
+                                            <TextBlock Text="プライバシーとセキュリティの推奨設定を選択"
                                                        HorizontalAlignment="Left"
                                                        VerticalAlignment="Top"
                                                        Margin="15,12,0,0"
@@ -622,7 +622,7 @@
                                                       Click="SelectRecPriv_Click"/>
                                         </StackPanel>
                                         <StackPanel Orientation="Horizontal">
-                                            <TextBlock Text="Select Recommended App Permissions Settings"
+                                            <TextBlock Text="推奨アプリ許可設定を選択"
                                                        HorizontalAlignment="Left"
                                                        VerticalAlignment="Top"
                                                        Margin="15,12,0,0"
@@ -637,7 +637,7 @@
                                                       Click="SelectRecAppPerm_Click"/>
                                         </StackPanel>
                                         <StackPanel Orientation="Horizontal">
-                                            <TextBlock Text="Deselect All Privacy and Security Settings and App Permissions Settings"
+                                            <TextBlock Text="すべてのプライバシーとセキュリティの設定とアプリのアクセス許可の設定の選択を解除する"
                                                        HorizontalAlignment="Left"
                                                        VerticalAlignment="Top"
                                                        Margin="15,12,0,0"
@@ -668,7 +668,7 @@
                                     <StackPanel HorizontalAlignment="Left"
                                                 VerticalAlignment="Top"
                                                 Height="30" Width="381.67">
-                                        <TextBlock Text="Privacy and Security"
+                                        <TextBlock Text="プライバシーとセキュリティ"
                                                    HorizontalAlignment="Center"
                                                    VerticalAlignment="Top"
                                                    Margin="5,4,0,0"
@@ -694,7 +694,7 @@
                                                     HorizontalAlignment="Left"
                                                     VerticalAlignment="Top"
                                                     Height="30" Width="381.66">
-                                            <TextBlock Text="General"
+                                            <TextBlock Text="一般"
                                                        HorizontalAlignment="Left"
                                                        VerticalAlignment="Top"
                                                        Margin="5,4,0,0"
@@ -704,7 +704,7 @@
                                                        FontSize="20"/>
                                         </StackPanel>
                                     </Border>
-                                    <TextBlock Text="Let Apps Show Personalized Ads"
+                                    <TextBlock Text="アプリにパーソナライズされた広告を表示させる"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,7,0,0"
@@ -713,7 +713,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                      Name="PersonalizedAds_NC"
                                                      GroupName="PersonalizedAds"
                                                      IsChecked="True"
@@ -722,14 +722,14 @@
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"
                                                      Click="UN_Priv_Click"/>
-                                        <RadioButton Content="Disable"
+                                        <RadioButton Content="無効"
                                                      Name="PersonalizedAds_Disable"
                                                      GroupName="PersonalizedAds"
                                                      Margin="25,5,0,0"
                                                      Foreground="{DynamicResource TextColor1}"
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"/>
-                                        <RadioButton Content="Enable"
+                                        <RadioButton Content="有効"
                                                      Name="PersonalizedAds_Enable"
                                                      GroupName="PersonalizedAds"
                                                      Margin="25,5,0,0"
@@ -738,7 +738,7 @@
                                                      FontSize="14"
                                                      Click="UN_Priv_Click"/>
                                     </StackPanel>
-                                    <TextBlock Text="Allow Websites Access to Language List"
+                                    <TextBlock Text="言語リストへのWebサイトのアクセスを許可"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,12,0,0"
@@ -747,7 +747,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                      Name="LanguageList_NC"
                                                      GroupName="LanguageList"
                                                      IsChecked="True"
@@ -756,7 +756,7 @@
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"
                                                      Click="UN_Priv_Click"/>
-                                        <RadioButton Content="Disable"
+                                        <RadioButton Content="無効"
                                                      Name="LanguageList_Disable"
                                                      GroupName="LanguageList"
                                                      Margin="25,5,0,0"
@@ -765,7 +765,7 @@
                                                      FontSize="14"
                                                      Click="UN_Priv_Click"/>
                                     </StackPanel>
-                                    <TextBlock Text="Improve Search by Tracking App Launches"
+                                    <TextBlock Text="アプリの起動を追跡して検索を改善する"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,12,0,0"
@@ -774,7 +774,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                      Name="ImproveSearch_NC"
                                                      GroupName="ImproveSearch"
                                                      IsChecked="True"
@@ -783,7 +783,7 @@
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"
                                                      Click="UN_Priv_Click"/>
-                                        <RadioButton Content="Disable"
+                                        <RadioButton Content="無効"
                                                      Name="ImproveSearch_Disable"
                                                      GroupName="ImproveSearch"
                                                      Margin="25,5,0,0"
@@ -791,7 +791,7 @@
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"
                                                      Click="UN_Priv_Click"/>
-                                        <RadioButton Content="Enable"
+                                        <RadioButton Content="有効"
                                                      Name="ImproveSearch_Enable"
                                                      GroupName="ImproveSearch"
                                                      Margin="25,5,0,0"
@@ -799,7 +799,7 @@
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"/>
                                     </StackPanel>
-                                    <TextBlock Text="Show Suggested Content in Settings App"
+                                    <TextBlock Text="設定アプリでおすすめコンテンツを表示する"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,12,0,0"
@@ -808,7 +808,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                      Name="ShowSuggested_NC"
                                                      GroupName="ShowSuggested"
                                                      IsChecked="True"
@@ -817,14 +817,14 @@
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"
                                                      Click="UN_Priv_Click"/>
-                                        <RadioButton Content="Disable"
+                                        <RadioButton Content="無効"
                                                      Name="ShowSuggested_Disable"
                                                      GroupName="ShowSuggested"
                                                      Margin="25,5,0,0"
                                                      Foreground="{DynamicResource TextColor1}"
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"/>
-                                        <RadioButton Content="Enable"
+                                        <RadioButton Content="有効"
                                                      Name="ShowSuggested_Enable"
                                                      GroupName="ShowSuggested"
                                                      Margin="25,5,0,0"
@@ -850,7 +850,7 @@
                                                     HorizontalAlignment="Left"
                                                     VerticalAlignment="Top"
                                                     Height="30" Width="381.66">
-                                            <TextBlock Text="Speech"
+                                            <TextBlock Text="音声"
                                                        HorizontalAlignment="Left"
                                                        VerticalAlignment="Top"
                                                        Margin="5,4,0,0"
@@ -860,7 +860,7 @@
                                                        FontSize="20"/>
                                         </StackPanel>
                                     </Border>
-                                    <TextBlock Text="Online Speech Recognition"
+                                    <TextBlock Text="オンライン音声認識"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,7,0,0"
@@ -869,7 +869,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                      Name="SpeechRecognition_NC"
                                                      GroupName="SpeechRecognition"
                                                      IsChecked="True"
@@ -878,14 +878,14 @@
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"
                                                      Click="UN_Priv_Click"/>
-                                        <RadioButton Content="Disable"
+                                        <RadioButton Content="無効"
                                                      Name="SpeechRecognition_Disable"
                                                      GroupName="SpeechRecognition"
                                                      Margin="25,5,0,0"
                                                      Foreground="{DynamicResource TextColor1}"
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"/>
-                                        <RadioButton Content="Enable"
+                                        <RadioButton Content="有効"
                                                      Name="SpeechRecognition_Enable"
                                                      GroupName="SpeechRecognition"
                                                      Margin="25,5,0,0"
@@ -911,7 +911,7 @@
                                                     HorizontalAlignment="Left"
                                                     VerticalAlignment="Top"
                                                     Height="30" Width="381.66">
-                                            <TextBlock Text="Inking and Typing"
+                                            <TextBlock Text="手書き入力"
                                                        HorizontalAlignment="Left"
                                                        VerticalAlignment="Top"
                                                        Margin="5,4,0,0"
@@ -921,7 +921,7 @@
                                                        FontSize="20"/>
                                         </StackPanel>
                                     </Border>
-                                    <TextBlock Text="Personal Inking and Typing Dictionary"
+                                    <TextBlock Text="手書き入力とタイピングのパーソナル辞典"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,7,0,0"
@@ -930,7 +930,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                      Name="Dictionary_NC"
                                                      GroupName="Dictionary"
                                                      IsChecked="True"
@@ -939,14 +939,14 @@
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"
                                                      Click="UN_Priv_Click"/>
-                                        <RadioButton Content="Disable"
+                                        <RadioButton Content="無効"
                                                      Name="Dictionary_Disable"
                                                      GroupName="Dictionary"
                                                      Margin="25,5,0,0"
                                                      Foreground="{DynamicResource TextColor1}"
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"/>
-                                        <RadioButton Content="Enable"
+                                        <RadioButton Content="有効"
                                                      Name="Dictionary_Enable"
                                                      GroupName="Dictionary"
                                                      Margin="25,5,0,0"
@@ -972,7 +972,7 @@
                                                     HorizontalAlignment="Left"
                                                     VerticalAlignment="Top"
                                                     Height="30" Width="381.66">
-                                            <TextBlock Text="Diagnostics and Feedback"
+                                            <TextBlock Text="診断とフィードバック"
                                                        HorizontalAlignment="Left"
                                                        VerticalAlignment="Top"
                                                        Margin="5,4,0,0"
@@ -982,7 +982,7 @@
                                                        FontSize="20"/>
                                         </StackPanel>
                                     </Border>
-                                    <TextBlock Text="Send Optional Diagnostic Data"
+                                    <TextBlock Text="オプションの診断データを送信する"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,7,0,0"
@@ -991,7 +991,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                      Name="OptionalData_NC"
                                                      GroupName="OptionalData"
                                                      IsChecked="True"
@@ -1000,14 +1000,14 @@
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"
                                                      Click="UN_Priv_Click"/>
-                                        <RadioButton Content="Disable"
+                                        <RadioButton Content="無効"
                                                      Name="OptionalData_Disable"
                                                      GroupName="OptionalData"
                                                      Margin="25,5,0,0"
                                                      Foreground="{DynamicResource TextColor1}"
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"/>
-                                        <RadioButton Content="Enable"
+                                        <RadioButton Content="有効"
                                                      Name="OptionalData_Enable"
                                                      GroupName="OptionalData"
                                                      Margin="25,5,0,0"
@@ -1016,7 +1016,7 @@
                                                      FontSize="14"
                                                      Click="UN_Priv_Click"/>
                                     </StackPanel>
-                                    <TextBlock Text="Send Inking and Typing Data"
+                                    <TextBlock Text="手書き入力とタイピングのデータを送信"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,12,0,0"
@@ -1025,7 +1025,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                      Name="TypingData_NC"
                                                      GroupName="TypingData"
                                                      IsChecked="True"
@@ -1034,14 +1034,14 @@
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"
                                                      Click="UN_Priv_Click"/>
-                                        <RadioButton Content="Disable"
+                                        <RadioButton Content="無効"
                                                      Name="TypingData_Disable"
                                                      GroupName="TypingData"
                                                      Margin="25,5,0,0"
                                                      Foreground="{DynamicResource TextColor1}"
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"/>
-                                        <RadioButton Content="Enable"
+                                        <RadioButton Content="有効"
                                                      Name="TypingData_Enable"
                                                      GroupName="TypingData"
                                                      Margin="25,5,0,0"
@@ -1050,7 +1050,7 @@
                                                      FontSize="14"
                                                      Click="UN_Priv_Click"/>
                                     </StackPanel>
-                                    <TextBlock Text="Tailored Experience"
+                                    <TextBlock Text="カスタマイズされた体験"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,12,0,0"
@@ -1059,7 +1059,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                      Name="Tailored_NC"
                                                      GroupName="Tailored"
                                                      IsChecked="True"
@@ -1068,14 +1068,14 @@
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"
                                                      Click="UN_Priv_Click"/>
-                                        <RadioButton Content="Disable"
+                                        <RadioButton Content="無効"
                                                      Name="Tailored_Disable"
                                                      GroupName="Tailored"
                                                      Margin="25,5,0,0"
                                                      Foreground="{DynamicResource TextColor1}"
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"/>
-                                        <RadioButton Content="Enable"
+                                        <RadioButton Content="有効"
                                                      Name="Tailored_Enable"
                                                      GroupName="Tailored"
                                                      Margin="25,5,0,0"
@@ -1084,7 +1084,7 @@
                                                      FontSize="14"
                                                      Click="UN_Priv_Click"/>
                                     </StackPanel>
-                                    <TextBlock Text="Feedback Frequency"
+                                    <TextBlock Text="フィードバック頻度"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,12,0,0"
@@ -1096,12 +1096,12 @@
                                         <ComboBox Width="250"
                                                   Margin="15,5,0,0"
                                                   Foreground="Black">
-                                            <ComboBoxItem IsSelected="True" Name="Feedback_NC" Selected="UN_Priv_Click">No Change</ComboBoxItem>
-                                            <ComboBoxItem Name="Feedback_Auto" Selected="UN_Priv_Click">Automatically</ComboBoxItem>
-                                            <ComboBoxItem Name="Feedback_Always" Selected="UN_Priv_Click">Always</ComboBoxItem>
-                                            <ComboBoxItem Name="Feedback_Daily" Selected="UN_Priv_Click">Once a Day</ComboBoxItem>
-                                            <ComboBoxItem Name="Feedback_Weekly" Selected="UN_Priv_Click">Once a Week</ComboBoxItem>
-                                            <ComboBoxItem Name="Feedback_Never">Never</ComboBoxItem>
+                                            <ComboBoxItem IsSelected="True" Name="Feedback_NC" Selected="UN_Priv_Click">変更しない</ComboBoxItem>
+                                            <ComboBoxItem Name="Feedback_Auto" Selected="UN_Priv_Click">自動</ComboBoxItem>
+                                            <ComboBoxItem Name="Feedback_Always" Selected="UN_Priv_Click">常に</ComboBoxItem>
+                                            <ComboBoxItem Name="Feedback_Daily" Selected="UN_Priv_Click">一日ごと</ComboBoxItem>
+                                            <ComboBoxItem Name="Feedback_Weekly" Selected="UN_Priv_Click">一週間ごと</ComboBoxItem>
+                                            <ComboBoxItem Name="Feedback_Never">なし</ComboBoxItem>
                                         </ComboBox>
                                     </StackPanel>
                                 </StackPanel>
@@ -1122,7 +1122,7 @@
                                                     HorizontalAlignment="Left"
                                                     VerticalAlignment="Top"
                                                     Height="30" Width="381.66">
-                                            <TextBlock Text="Search Permissions"
+                                            <TextBlock Text="検索許可"
                                                        HorizontalAlignment="Left"
                                                        VerticalAlignment="Top"
                                                        Margin="5,4,0,0"
@@ -1132,7 +1132,7 @@
                                                        FontSize="20"/>
                                         </StackPanel>
                                     </Border>
-                                    <TextBlock Text="Safe Search"
+                                    <TextBlock Text="セーフサーチ"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,7,0,0"
@@ -1141,7 +1141,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                      Name="SafeSearch_NC"
                                                      GroupName="SafeSearch"
                                                      IsChecked="True"
@@ -1174,7 +1174,7 @@
                                                      FontSize="14"
                                                      Click="UN_Priv_Click"/>
                                     </StackPanel>
-                                    <TextBlock Text="Store Search History"
+                                    <TextBlock Text="ストア検索履歴"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,12,0,0"
@@ -1183,7 +1183,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                      Name="SearchHistory_NC"
                                                      GroupName="SearchHistory"
                                                      IsChecked="True"
@@ -1192,14 +1192,14 @@
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"
                                                      Click="UN_Priv_Click"/>
-                                        <RadioButton Content="Disable"
+                                        <RadioButton Content="無効"
                                                      Name="SearchHistory_Disable"
                                                      GroupName="SearchHistory"
                                                      Margin="25,5,0,0"
                                                      Foreground="{DynamicResource TextColor1}"
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"/>
-                                        <RadioButton Content="Enable"
+                                        <RadioButton Content="有効"
                                                      Name="SearchHistory_Enable"
                                                      GroupName="SearchHistory"
                                                      Margin="25,5,0,0"
@@ -1231,7 +1231,7 @@
                                                     HorizontalAlignment="Left"
                                                     VerticalAlignment="Top"
                                                     Height="30" Width="381.66">
-                                            <TextBlock Text="App Permissions"
+                                            <TextBlock Text="アプリケーションの権限"
                                                        HorizontalAlignment="Left"
                                                        VerticalAlignment="Top"
                                                        Margin="5,4,0,0"
@@ -1241,7 +1241,7 @@
                                                        FontSize="20"/>
                                         </StackPanel>
                                     </Border>
-                                    <TextBlock Text="Location Services"
+                                    <TextBlock Text="位置情報サービス"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,7,0,0"
@@ -1250,7 +1250,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                      Name="AP_Location_NC"
                                                      GroupName="AP_Location"
                                                      IsChecked="True"
@@ -1259,14 +1259,14 @@
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"
                                                      Click="UN_AppPerm_Click"/>
-                                        <RadioButton Content="Disable"
+                                        <RadioButton Content="無効"
                                                      Name="AP_Location_Disable"
                                                      GroupName="AP_Location"
                                                      Margin="25,5,0,0"
                                                      Foreground="{DynamicResource TextColor1}"
                                                      FontFamily="Fonts/#Sans"
                                                      FontSize="14"/>
-                                        <RadioButton Content="Enable"
+                                        <RadioButton Content="有効"
                                                      Name="AP_Location_Enable"
                                                      GroupName="AP_Location"
                                                      Margin="25,5,0,0"
@@ -1275,7 +1275,7 @@
                                                      FontSize="14"
                                                      Click="UN_AppPerm_Click"/>
                                     </StackPanel>
-                                    <TextBlock Text="Camera Access"
+                                    <TextBlock Text="カメラへのアクセス"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,12,0,0"
@@ -1284,7 +1284,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                     Name="AP_Camera_NC"
                                                     GroupName="AP_Camera"
                                                     IsChecked="True"
@@ -1293,7 +1293,7 @@
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"
                                                     Click="UN_AppPerm_Click"/>
-                                        <RadioButton Content="Disable"
+                                        <RadioButton Content="無効"
                                                     Name="AP_Camera_Disable"
                                                     GroupName="AP_Camera"
                                                     Margin="25,5,0,0"
@@ -1301,7 +1301,7 @@
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"
                                                     Click="UN_AppPerm_Click"/>
-                                        <RadioButton Content="Enable"
+                                        <RadioButton Content="有効"
                                                     Name="AP_Camera_Enable"
                                                     GroupName="AP_Camera"
                                                     Margin="25,5,0,0"
@@ -1309,7 +1309,7 @@
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
                                     </StackPanel>
-                                    <TextBlock Text="Microphone Access"
+                                    <TextBlock Text="マイクへのアクセス"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,12,0,0"
@@ -1318,7 +1318,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                     Name="AP_Microphone_NC"
                                                     GroupName="AP_Microphone"
                                                     IsChecked="True"
@@ -1327,7 +1327,7 @@
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"
                                                     Click="UN_AppPerm_Click"/>
-                                        <RadioButton Content="Disable"
+                                        <RadioButton Content="無効"
                                                     Name="AP_Microphone_Disable"
                                                     GroupName="AP_Microphone"
                                                     Margin="25,5,0,0"
@@ -1335,7 +1335,7 @@
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"
                                                     Click="UN_AppPerm_Click"/>
-                                        <RadioButton Content="Enable"
+                                        <RadioButton Content="有効"
                                                     Name="AP_Microphone_Enable"
                                                     GroupName="AP_Microphone"
                                                     Margin="25,5,0,0"
@@ -1343,7 +1343,7 @@
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
                                     </StackPanel>
-                                    <TextBlock Text="Voice Activation"
+                                    <TextBlock Text="音声認識"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,12,0,0"
@@ -1352,7 +1352,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                     Name="AP_VActivation_NC"
                                                     GroupName="AP_VActivation"
                                                     IsChecked="True"
@@ -1361,14 +1361,14 @@
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"
                                                     Click="UN_AppPerm_Click"/>
-                                        <RadioButton Content="Disable"
+                                        <RadioButton Content="無効"
                                                     Name="AP_VActivation_Disable"
                                                     GroupName="AP_VActivation"
                                                     Margin="25,5,0,0"
                                                     Foreground="{DynamicResource TextColor1}"
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
-                                        <RadioButton Content="Enable"
+                                        <RadioButton Content="有効"
                                                     Name="AP_VActivation_Enable"
                                                     GroupName="AP_VActivation"
                                                     Margin="25,5,0,0"
@@ -1377,7 +1377,7 @@
                                                     FontSize="14"
                                                     Click="UN_AppPerm_Click"/>
                                     </StackPanel>
-                                    <TextBlock Text="Notifications Access"
+                                    <TextBlock Text="通知へのアクセス"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,12,0,0"
@@ -1386,7 +1386,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                     Name="AP_Notifications_NC"
                                                     GroupName="AP_Notifications"
                                                     IsChecked="True"
@@ -1395,14 +1395,14 @@
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"
                                                     Click="UN_AppPerm_Click"/>
-                                        <RadioButton Content="Disable"
+                                        <RadioButton Content="無効"
                                                     Name="AP_Notifications_Disable"
                                                     GroupName="AP_Notifications"
                                                     Margin="25,5,0,0"
                                                     Foreground="{DynamicResource TextColor1}"
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
-                                        <RadioButton Content="Enable"
+                                        <RadioButton Content="有効"
                                                     Name="AP_Notifications_Enable"
                                                     GroupName="AP_Notifications"
                                                     Margin="25,5,0,0"
@@ -1411,7 +1411,7 @@
                                                     FontSize="14"
                                                     Click="UN_AppPerm_Click"/>
                                     </StackPanel>
-                                    <TextBlock Text="Account Information Access"
+                                    <TextBlock Text="アカウント情報へのアクセス"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,12,0,0"
@@ -1420,7 +1420,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                     Name="AP_AInfo_NC"
                                                     GroupName="AP_AInfo"
                                                     IsChecked="True"
@@ -1431,14 +1431,14 @@
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"
                                                     Click="UN_AppPerm_Click"/>
-                                        <RadioButton Content="Disable"
+                                        <RadioButton Content="無効"
                                                     Name="AP_AInfo_Disable"
                                                     GroupName="AP_AInfo"
                                                     Margin="25,5,0,0"
                                                     Foreground="{DynamicResource TextColor1}"
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
-                                        <RadioButton Content="Enable"
+                                        <RadioButton Content="有効"
                                                     Name="AP_AInfo_Enable"
                                                     GroupName="AP_AInfo"
                                                     Margin="25,5,0,0"
@@ -1447,7 +1447,7 @@
                                                     FontSize="14"
                                                     Click="UN_AppPerm_Click"/>
                                     </StackPanel>
-                                    <TextBlock Text="Contacts Access"
+                                    <TextBlock Text="連絡先へのアクセス"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,12,0,0"
@@ -1456,7 +1456,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                     Name="AP_Contacts_NC"
                                                     GroupName="AP_Contacts"
                                                     IsChecked="True"
@@ -1467,14 +1467,14 @@
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"
                                                     Click="UN_AppPerm_Click"/>
-                                        <RadioButton Content="Disable"
+                                        <RadioButton Content="無効"
                                                     Name="AP_Contacts_Disable"
                                                     GroupName="AP_Contacts"
                                                     Margin="25,5,0,0"
                                                     Foreground="{DynamicResource TextColor1}"
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
-                                        <RadioButton Content="Enable"
+                                        <RadioButton Content="有効"
                                                     Name="AP_Contacts_Enable"
                                                     GroupName="AP_Contacts"
                                                     Margin="25,5,0,0"
@@ -1483,7 +1483,7 @@
                                                     FontSize="14"
                                                     Click="UN_AppPerm_Click"/>
                                     </StackPanel>
-                                    <TextBlock Text="Calendar Access"
+                                    <TextBlock Text="カレンダーへのアクセス"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,12,0,0"
@@ -1492,7 +1492,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                     Name="AP_Calendar_NC"
                                                     GroupName="AP_Calendar"
                                                     IsChecked="True"
@@ -1503,7 +1503,7 @@
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"
                                                     Click="UN_AppPerm_Click"/>
-                                        <RadioButton Content="Disable"
+                                        <RadioButton Content="無効"
                                                     Name="AP_Calendar_Disable"
                                                     GroupName="AP_Calendar"
                                                     Margin="25,5,0,0"
@@ -1511,7 +1511,7 @@
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"
                                                     Click="UN_AppPerm_Click"/>
-                                        <RadioButton Content="Enable"
+                                        <RadioButton Content="有効"
                                                     Name="AP_Calendar_Enable"
                                                     GroupName="AP_Calendar"
                                                     Margin="25,5,0,0"
@@ -1519,7 +1519,7 @@
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
                                     </StackPanel>
-                                    <TextBlock Text="Phone Call Access"
+                                    <TextBlock Text="電話へのアクセス"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,12,0,0"
@@ -1528,7 +1528,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                     Name="AP_PCall_NC"
                                                     GroupName="AP_PCall"
                                                     IsChecked="True"
@@ -1539,14 +1539,14 @@
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"
                                                     Click="UN_AppPerm_Click"/>
-                                        <RadioButton Content="Disable"
+                                        <RadioButton Content="無効"
                                                     Name="AP_PCall_Disable"
                                                     GroupName="AP_PCall"
                                                     Margin="25,5,0,0"
                                                     Foreground="{DynamicResource TextColor1}"
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
-                                        <RadioButton Content="Enable"
+                                        <RadioButton Content="有効"
                                                     Name="AP_PCall_Enable"
                                                     GroupName="AP_PCall"
                                                     Margin="25,5,0,0"
@@ -1555,7 +1555,7 @@
                                                     FontSize="14"
                                                     Click="UN_AppPerm_Click"/>
                                     </StackPanel>
-                                    <TextBlock Text="Call History Access"
+                                    <TextBlock Text="通話履歴へのアクセス"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,12,0,0"
@@ -1564,7 +1564,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                     Name="AP_CHistory_NC"
                                                     GroupName="AP_CHistory"
                                                     IsChecked="True"
@@ -1575,14 +1575,14 @@
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"
                                                     Click="UN_AppPerm_Click"/>
-                                        <RadioButton Content="Disable"
+                                        <RadioButton Content="無効"
                                                     Name="AP_CHistory_Disable"
                                                     GroupName="AP_CHistory"
                                                     Margin="25,5,0,0"
                                                     Foreground="{DynamicResource TextColor1}"
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
-                                        <RadioButton Content="Enable"
+                                        <RadioButton Content="有効"
                                                     Name="AP_CHistory_Enable"
                                                     GroupName="AP_CHistory"
                                                     Margin="25,5,0,0"
@@ -1591,7 +1591,7 @@
                                                     FontSize="14"
                                                     Click="UN_AppPerm_Click"/>
                                     </StackPanel>
-                                    <TextBlock Text="Email Access"
+                                    <TextBlock Text="Eメールへのアクセス"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,12,0,0"
@@ -1600,7 +1600,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                     Name="AP_Email_NC"
                                                     GroupName="AP_Email"
                                                     IsChecked="True"
@@ -1611,7 +1611,7 @@
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"
                                                     Click="UN_AppPerm_Click"/>
-                                        <RadioButton Content="Disable"
+                                        <RadioButton Content="無効"
                                                     Name="AP_Email_Disable"
                                                     GroupName="AP_Email"
                                                     Margin="25,5,0,0"
@@ -1619,7 +1619,7 @@
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"
                                                     Click="UN_AppPerm_Click"/>
-                                        <RadioButton Content="Enable"
+                                        <RadioButton Content="有効"
                                                     Name="AP_Email_Enable"
                                                     GroupName="AP_Email"
                                                     Margin="25,5,0,0"
@@ -1627,7 +1627,7 @@
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
                                     </StackPanel>
-                                    <TextBlock Text="Tasks Access"
+                                    <TextBlock Text="タスクへのアクセス"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,12,0,0"
@@ -1636,7 +1636,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                     Name="AP_Tasks_NC"
                                                     GroupName="AP_Tasks"
                                                     IsChecked="True"
@@ -1647,14 +1647,14 @@
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"
                                                     Click="UN_AppPerm_Click"/>
-                                        <RadioButton Content="Disable"
+                                        <RadioButton Content="無効"
                                                     Name="AP_Tasks_Disable"
                                                     GroupName="AP_Tasks"
                                                     Margin="25,5,0,0"
                                                     Foreground="{DynamicResource TextColor1}"
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
-                                        <RadioButton Content="Enable"
+                                        <RadioButton Content="有効"
                                                     Name="AP_Tasks_Enable"
                                                     GroupName="AP_Tasks"
                                                     Margin="25,5,0,0"
@@ -1663,7 +1663,7 @@
                                                     FontSize="14"
                                                     Click="UN_AppPerm_Click"/>
                                     </StackPanel>
-                                    <TextBlock Text="Messaging Access"
+                                    <TextBlock Text="メッセージへのアクセス"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,12,0,0"
@@ -1672,7 +1672,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                     Name="AP_Messaging_NC"
                                                     GroupName="AP_Messaging"
                                                     IsChecked="True"
@@ -1683,14 +1683,14 @@
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"
                                                     Click="UN_AppPerm_Click"/>
-                                        <RadioButton Content="Disable"
+                                        <RadioButton Content="無効"
                                                     Name="AP_Messaging_Disable"
                                                     GroupName="AP_Messaging"
                                                     Margin="25,5,0,0"
                                                     Foreground="{DynamicResource TextColor1}"
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
-                                        <RadioButton Content="Enable"
+                                        <RadioButton Content="有効"
                                                     Name="AP_Messaging_Enable"
                                                     GroupName="AP_Messaging"
                                                     Margin="25,5,0,0"
@@ -1699,7 +1699,7 @@
                                                     FontSize="14"
                                                     Click="UN_AppPerm_Click"/>
                                     </StackPanel>
-                                    <TextBlock Text="Radio Control Access"
+                                    <TextBlock Text="無線へのアクセス"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,12,0,0"
@@ -1708,7 +1708,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                     Name="AP_Radio_NC"
                                                     GroupName="AP_Radio"
                                                     IsChecked="True"
@@ -1719,14 +1719,14 @@
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"
                                                     Click="UN_AppPerm_Click"/>
-                                        <RadioButton Content="Disable"
+                                        <RadioButton Content="無効"
                                                     Name="AP_Radio_Disable"
                                                     GroupName="AP_Radio"
                                                     Margin="25,5,0,0"
                                                     Foreground="{DynamicResource TextColor1}"
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
-                                        <RadioButton Content="Enable"
+                                        <RadioButton Content="有効"
                                                     Name="AP_Radio_Enable"
                                                     GroupName="AP_Radio"
                                                     Margin="25,5,0,0"
@@ -1735,7 +1735,7 @@
                                                     FontSize="14"
                                                     Click="UN_AppPerm_Click"/>
                                     </StackPanel>
-                                    <TextBlock Text="Communicate with Unpaired Devices"
+                                    <TextBlock Text="ペアリングされていないデバイスとの通信"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,12,0,0"
@@ -1744,7 +1744,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                     Name="AP_Communicate_NC"
                                                     GroupName="AP_Communicate"
                                                     IsChecked="True"
@@ -1755,14 +1755,14 @@
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"
                                                     Click="UN_AppPerm_Click"/>
-                                        <RadioButton Content="Disable"
+                                        <RadioButton Content="無効"
                                                     Name="AP_Communicate_Disable"
                                                     GroupName="AP_Communicate"
                                                     Margin="25,5,0,0"
                                                     Foreground="{DynamicResource TextColor1}"
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
-                                        <RadioButton Content="Enable"
+                                        <RadioButton Content="有効"
                                                     Name="AP_Communicate_Enable"
                                                     GroupName="AP_Communicate"
                                                     Margin="25,5,0,0"
@@ -1771,7 +1771,7 @@
                                                     FontSize="14"
                                                     Click="UN_AppPerm_Click"/>
                                     </StackPanel>
-                                    <TextBlock Text="App Diagnostic Access"
+                                    <TextBlock Text="アプリ診断へのアクセス"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,12,0,0"
@@ -1780,7 +1780,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                     Name="AP_Diagnostic_NC"
                                                     GroupName="AP_Diagnostic"
                                                     IsChecked="True"
@@ -1791,14 +1791,14 @@
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"
                                                     Click="UN_AppPerm_Click"/>
-                                        <RadioButton Content="Disable"
+                                        <RadioButton Content="無効"
                                                     Name="AP_Diagnostic_Disable"
                                                     GroupName="AP_Diagnostic"
                                                     Margin="25,5,0,0"
                                                     Foreground="{DynamicResource TextColor1}"
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
-                                        <RadioButton Content="Enable"
+                                        <RadioButton Content="有効"
                                                     Name="AP_Diagnostic_Enable"
                                                     GroupName="AP_Diagnostic"
                                                     Margin="25,5,0,0"
@@ -1807,7 +1807,7 @@
                                                     FontSize="14"
                                                     Click="UN_AppPerm_Click"/>
                                     </StackPanel>
-                                    <TextBlock Text="Documents Access"
+                                    <TextBlock Text="ドキュメントへのアクセス"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,12,0,0"
@@ -1816,7 +1816,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                     Name="AP_Documents_NC"
                                                     GroupName="AP_Documents"
                                                     IsChecked="True"
@@ -1827,7 +1827,7 @@
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"
                                                     Click="UN_AppPerm_Click"/>
-                                        <RadioButton Content="Disable"
+                                        <RadioButton Content="無効"
                                                     Name="AP_Documents_Disable"
                                                     GroupName="AP_Documents"
                                                     Margin="25,5,0,0"
@@ -1835,7 +1835,7 @@
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"
                                                     Click="UN_AppPerm_Click"/>
-                                        <RadioButton Content="Enable"
+                                        <RadioButton Content="有効"
                                                     Name="AP_Documents_Enable"
                                                     GroupName="AP_Documents"
                                                     Margin="25,5,0,0"
@@ -1843,7 +1843,7 @@
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"/>
                                     </StackPanel>
-                                    <TextBlock Text="Downloads Folder Access"
+                                    <TextBlock Text="ダウンロードフォルダへのアクセス"
                                                HorizontalAlignment="Left"
                                                VerticalAlignment="Top"
                                                Margin="15,12,0,0"
@@ -1852,7 +1852,7 @@
                                                FontWeight="Medium"
                                                FontSize="16"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <RadioButton Content="No Change"
+                                        <RadioButton Content="変更なし"
                                                     Name="AP_Downloads_NC"
                                                     GroupName="AP_Downloads"
                                                     IsChecked="True"
@@ -1863,7 +1863,7 @@
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"
                                                     Click="UN_AppPerm_Click"/>
-                                        <RadioButton Content="Disable"
+                                        <RadioButton Content="無効"
                                                     Name="AP_Downloads_Disable"
                                                     GroupName="AP_Downloads"
                                                     Margin="25,5,0,0"
@@ -1871,7 +1871,7 @@
                                                     FontFamily="Fonts/#Sans"
                                                     FontSize="14"
                                                     Click="UN_AppPerm_Click"/>
-                                        <RadioButton Content="Enable"
+                                        <RadioButton Content="有効"
                                                     Name="AP_Downloads_Enable"
                                                     GroupName="AP_Downloads"
                                                     Margin="25,5,0,0"
@@ -1889,7 +1889,7 @@
             </Grid>
         </ScrollViewer>
 
-        <Button Content="Change Settings"
+        <Button Content="設定の変更"
                 Foreground="{DynamicResource TextColor1}"
                 FontWeight="Medium"
                 FontSize="16"
