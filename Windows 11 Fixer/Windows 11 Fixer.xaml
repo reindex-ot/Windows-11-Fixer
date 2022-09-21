@@ -110,7 +110,7 @@
                     </Button.Template>
                 </Button>
 
-                <Button Content="Light"
+                <Button Content="ライト"
                         Foreground="Black"
                         FontWeight="Medium"
                         FontSize="12"
@@ -141,7 +141,7 @@
                     </Button.Template>
                 </Button>
 
-                <Button Content="Dark"
+                <Button Content="ダーク"
                         Foreground="White"
                         FontWeight="Medium"
                         FontSize="12"
@@ -258,7 +258,7 @@
                                                     Command="{Binding SettingsViewCommand}">
                                                 <RadioButton.Content>
                                                     <TextBlock TextWrapping="Wrap" 
-                                                            Text="Windows Settings"
+                                                            Text="Windowsの設定"
                                                             TextAlignment="Center"/>
                                                 </RadioButton.Content>
                                                 <RadioButton.Style>
@@ -299,7 +299,7 @@
                                                     Command="{Binding UninstallViewCommand}">
                                                 <RadioButton.Content>
                                                     <TextBlock TextWrapping="Wrap" 
-                                                               Text="Uninstall MS Bloat"
+                                                               Text="ソフトウェアのアンインストール"
                                                                TextAlignment="Center"/>
                                                 </RadioButton.Content>
                                                 <RadioButton.Style>
@@ -340,7 +340,7 @@
                                                     Command="{Binding InstallViewCommand}">
                                                 <RadioButton.Content>
                                                     <TextBlock TextWrapping="Wrap" 
-                                                               Text="Install Software"
+                                                               Text="ソフトウェアのインストール"
                                                                TextAlignment="Center"/>
                                                 </RadioButton.Content>
                                                 <RadioButton.Style>
